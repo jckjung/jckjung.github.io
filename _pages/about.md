@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Introduction
-======
-I’m an Assistant Professor at Economics, Justice, and Policy Studies, Mount Royal University  [this template](https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm) I earned my PhD in Economics from Dalhousie University in 2023 and worked as a postdoctoral fellow at Saint Mary's University from 2023 to 2025. My research sits at the intersection of development economics and political economy, examining how industrial, innovation, and competition policies shape firm behaviour, economic performance, and inequality. 
+Welcome! I am an Assistant Professor in the Department of [Economics, Justice, and Policy Studies](https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm) at [Mount Royal University](https://www.mtroyal.ca/index.htm). As a proud first-generation university graduate, I bring a unique perspective to my research and teaching, shaped by a global academic journey from Seoul to Denver and across Atlantic Canada.
 
-Alongside research, I am deeply committed to economics education. I design courses that integrate narrative structure, real-world data, and applied policy analysis to cultivate critical thinking and strong analytical skills.
+I earned my Ph.D. from [Dalhousie University](https:://www.dal.ca) in 2023 under the supervision of [Lars Osberg](https://www.dal.ca/faculty/science/economics/faculty-staff/our-faculty/professors/lars-osberg.html), following an MA from the [University of Denver](https://www.du.edu/)—where I received the *Satish Raichur Award*— and a BA from Sogang University. Prior to joining MRU, I served as a Postdoctoral Fellow at the [Sobey School of Business](https://www.smu.ca/sobey/), Saint Mary’s University.
+
+My research work explores how policy frameworks—ranging from industrial to competition policy—impact firm dynamics and socioeconomic inequality. In the classroom, I am dedicated to making economics accessible and engaging; by integrating real-world data and policy narratives, I aim to help students bridge the gap between economic theory and the complex challenges of the modern world.
