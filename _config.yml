@@ -23,7 +23,7 @@ repository               : "jckjung/jckjung.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "jung2011photo.png"
   name             : "Joseph Chul-kyoo Jung"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
