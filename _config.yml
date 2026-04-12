@@ -35,13 +35,12 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "S_c8fkoAAAAJ&scilu"
+  googlescholar    : "https://scholar.google.com/citations?user=S_c8fkoAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "0000-0001-7042-5707"
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0001-7042-5707"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -52,8 +51,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
 
   # Social media
   artstation       : # Username
