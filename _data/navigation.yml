@@ -7,28 +7,16 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
+# The following is the order of the links in the header of the website.
 main:
   - title: "Research"
-    url: /publications/
+    url: /Research/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
   - title: "Teaching"
-    url: /teaching/    
-    
-  #- title: "Portfolio"
-  #  url: /portfolio/
-        
-  #- title: "Blog Posts"
-  #  url: /year-archive/
-    
+    url: /teaching/
+
   - title: "CV"
-   # url: /cv/
-   url: /files/jung2026cv0412.pdf
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
- # - title: "Guide"
- #   url: /markdown/
+    url: /files/jung2026cv0412.pdf
