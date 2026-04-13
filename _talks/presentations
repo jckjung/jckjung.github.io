@@ -1,0 +1,135 @@
+---
+layout: archive
+title: "Talks and Presentations"
+permalink: /talks/
+author_profile: true
+---
+
+{% if site.talkmap_link == true %}
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+{% endif %}
+
+<div class="archive">
+
+  <h2 class="archive__subtitle">Workshops & Methodological Training</h2>
+  
+  <div class="list__item">
+    <article class="archive__item">
+      <h3 class="archive__item-title">Methodology: Generalized Synthetic Control Method for Policy Impact Assessment</h3>
+      <p class="page__meta">
+        <strong>Quantitative Impact Assessment Workshop</strong>, Treasury Board of Canada Secretariat (TBS) <br>
+        <i>Virtual | February 2026</i>
+      </p>
+    </article>
+  </div>
+
+  <div class="list__item">
+    <article class="archive__item">
+      <h3 class="archive__item-title">Korean Causal Inference Summer Workshop</h3>
+      <p class="page__meta">
+        <i>Online | June 2024</i>
+      </p>
+    </article>
+  </div>
+
+  <hr>
+
+  <h2 class="archive__subtitle">Research Presentations</h2>
+
+  <div class="list__item">
+    <article class="archive__item">
+      <h3 class="archive__item-title">Assessing the Impact of Government Clean Technology Innovation Support Programs: Transition to Low Carbon Economy</h3>
+      <ul>
+        <li><strong>Korean Industrial Economic Association</strong>, Chungju, Korea (11/2025)</li>
+        <li><strong>Atlantic Canada Economics Association Conference</strong>, St.John’s, NL (10/2025)</li>
+        <li><strong>DRUID 25</strong>, Toronto, ON (6/2025)</li>
+        <li><strong>59th Canadian Economics Association Conference</strong>, Virtual (5/2025)</li>
+        <li><strong>Management Dept. Seminar</strong>, Sobey School of Business, Halifax, NS (2/2025)</li>
+        <li><strong>NACLICS PhD Academy</strong>, Halifax, NS (6/2024)</li>
+        <li><strong>58th Canadian Economics Association Conference</strong>, Toronto, ON (5/2024)</li>
+      </ul>
+    </article>
+  </div>
+
+  <div class="list__item">
+    <article class="archive__item">
+      <h3 class="archive__item-title">Pro-competitive Reforms, Market Power and Labour Share: A Causal Link</h3>
+      <ul>
+        <li><strong>PhD-EVS</strong>, Virtual (5/2025)</li>
+        <li><strong>51st Eastern Economic Association Conference</strong>, New York, NY (2/2025)</li>
+        <li><strong>Economics Dept. Seminar</strong>, Sobey School of Business, Halifax, NS (10/2024)</li>
+        <li><strong>NACLICS Conference: Innovation for Sustainable Development</strong>, Halifax, NS (6/2024)</li>
+        <li><strong>PPE Seminar</strong>, Mount Allison University, Sackville, NB (3/2023)</li>
+      </ul>
+    </article>
+  </div>
+
+  <div class="list__item">
+    <article class="archive__item">
+      <h3 class="archive__item-title">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's Heavy and Chemical Industry (HCI) Promotion (1973-1979)</h3>
+      <ul>
+        <li><strong>27th FMM Conference</strong>, Berlin, Germany (10/2023)</li>
+        <li><strong>Tracy Mott Economic Theory & Policy Workshop</strong>, University of Denver, CO (9/2022)</li>
+        <li><strong>PPE Seminar</strong>, Mount Allison University, Sackville, NB (10/2022)</li>
+        <li><strong>56th Canadian Economics Association Conference</strong>, Ottawa, ON (6/2022)</li>
+      </ul>
+    </article>
+  </div>
+
+  <h2 class="archive__subtitle">Invited Talks & Specialized Training</h2>
+
+  <div class="list__item">
+    <article class="archive__item">
+      <h3 class="archive__item-title">Bridging the innovation divide: barriers and policy insights for Korean SMEs</h3>
+      <p class="page__meta">
+        <strong>United Nations Industrial Development Organization (UNIDO)</strong>, Vienna, Austria <br>
+        <i>December 2024</i>
+      </p>
+    </article>
+  </div>
+
+  <div class="list__item">
+    <article class="archive__item">
+      <h3 class="archive__item-title">Big Business Promotion and Income Inequality Dynamics</h3>
+      <p class="page__meta">
+        <strong>2nd Summer School on AB-SFC Modelling Workshop</strong>, UNIVPM, Ancona, Italy <br>
+        <i>September 2023</i>
+      </p>
+    </article>
+  </div>
+
+</div>
+
+<style>
+  .archive__subtitle {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+    color: #333;
+  }
+  .archive__item-title {
+    margin-bottom: 0.25em;
+    font-size: 1.1em;
+  }
+  .page__meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 1em;
+    margin-top: 0.5em;
+  }
+  li {
+    font-size: 0.9em;
+    margin-bottom: 0.3em;
+    position: relative;
+  }
+  li:before {
+    content: "•";
+    color: #888;
+    position: absolute;
+    left: -0.8em;
+  }
+</style>
