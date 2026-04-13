@@ -21,7 +21,6 @@ My research explores how policy frameworks—ranging from industrial to competit
 My methodology focuses on identifying causal relationships and emergent patterns within economic systems. Specifically, I employ:
 * **Causal Inference & Machine Learning:** Applying quasi-experimental designs and algorithmic frameworks to uncover the heterogeneous impacts of policy on innovation and productivity.
 * **Agent-Based Modeling (ABM):** Developing computational simulations to analyze the interaction between large conglomerates (Chaebols) and the broader income distribution.
-* **Information Theory:** Using maximum entropy and distributional analysis to understand technical change and firm-level dynamics.
 
 ### 2. Pluralistic Economic Pedagogy
 In the classroom, I am dedicated to making economics accessible and engaging. My teaching philosophy is built on three pillars:
