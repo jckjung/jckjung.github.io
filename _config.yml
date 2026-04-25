@@ -9,10 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-# Change these to your actual site URL
-url: "https://jckjung.github.io"
-baseurl: "" 
-title                    : "Joseph's Homepage"
+title: "<a href='https://jjung4311.github.io/' style='color: inherit; text-decoration: none;'>Joseph's Homepage</a>"
 title_separator          : "-"
 name                     : &name "Joseph Chul-kyoo Jung"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
