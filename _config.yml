@@ -5,17 +5,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
-
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title: "[Joseph's Homepage](https://jckjung.github.io/)"
+site_theme               : "default" # Options: "default", "air", "sunrise", "mint", "dirt", "contrast"
+title                    : "Joseph's Homepage"
 title_separator          : "-"
 name                     : &name "Joseph Chul-kyoo Jung"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://jckjung.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+description              : &description "Assistant Professor of Economics at Mount Royal University"
+url                      : "https://jckjung.github.io" 
+baseurl                  : "" 
 repository               : "jckjung/jckjung.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
