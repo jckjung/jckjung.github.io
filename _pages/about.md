@@ -6,16 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<style>
-  a {
-    text-decoration: none !important;
-  }
-  a:hover {
-    text-decoration: underline !important;
-  }
-</style>
 
-Hello! I am an Assistant Professor in the Department of [Economics, Justice, and Policy Studies](https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm) at [Mount Royal University](https://www.mtroyal.ca/index.htm). As a proud first-generation university graduate, I bring a unique perspective to my research and teaching, shaped by a global academic journey from Seoul to Denver and across Atlantic Canada.
+Hello! I am an Assistant Professor in the Department of [Economics, Justice, and Policy Studies](https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm) at <a href="https://www.mtroyal.ca/index.htm" style="text-decoration: none;">Mount Royal University</a>. As a proud first-generation university graduate, I bring a unique perspective to my research and teaching, shaped by a global academic journey from Seoul to Denver and across Atlantic Canada.
 
 I earned my Ph.D. from [Dalhousie University](https://www.dal.ca) in 2023 under the supervision of [Lars Osberg](https://en.wikipedia.org/wiki/Lars_Osberg), following an MA from the [University of Denver](https://www.du.edu/)—where I received the *Satish Raichur Award*— and a BA from Sogang University. Prior to joining MRU, I served as a Postdoctoral Fellow at the [Sobey School of Business](https://www.smu.ca/sobey/), Saint Mary’s University.
 
