@@ -7,18 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-  /* This forces the style for the whole page */
-  a {
-    color: #0047AB !important; /* Professional Cobalt Blue */
-    text-decoration: none !important;
-  }
-  a:hover {
-    text-decoration: underline !important;
-    color: #00008B !important; /* Darker blue on hover */
-  }
-</style>
-
 Hello! I am an Assistant Professor in the Department of <a href="https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm" style="color: #0047AB; text-decoration: none;">Economics, Justice, and Policy Studies</a> at <a href="https://www.mtroyal.ca/index.htm" style="color: #0047AB; text-decoration: none;">Mount Royal University</a>. As a proud first-generation university graduate, I bring a unique perspective to my research and teaching, shaped by a global academic journey from Seoul to Denver and across Atlantic Canada.
 
 I earned my Ph.D. from <a href="https://www.dal.ca" style="color: #0047AB; text-decoration: none;">Dalhousie University</a> in 2023 under the supervision of <a href="https://en.wikipedia.org/wiki/Lars_Osberg" style="color: #0047AB; text-decoration: none;">Lars Osberg</a>, following an MA from the <a href="https://www.du.edu/" style="color: #0047AB; text-decoration: none;">University of Denver</a>—where I received the *Satish Raichur Award*— and a BA from Sogang University. Prior to joining MRU, I served as a Postdoctoral Fellow at the <a href="https://www.smu.ca/sobey/" style="color: #0047AB; text-decoration: none;">Sobey School of Business</a>, Saint Mary’s University.
