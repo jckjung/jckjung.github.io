@@ -9,6 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+# Change these to your actual site URL
+url: "https://jckjung.github.io"
+baseurl: "" 
 title                    : "Joseph's Homepage"
 title_separator          : "-"
 name                     : &name "Joseph Chul-kyoo Jung"
@@ -27,8 +30,8 @@ author:
   name             : "Joseph Chul-kyoo Jung"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor of Economics"
-  location         : "Calgary AB"
   employer         : "Mount Royal University"
+  location         : "Calgary AB"
   uri              : "https://jckjung.github.io"
   email            : "jjung@mru.ca" 
 
