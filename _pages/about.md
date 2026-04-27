@@ -7,24 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am an Assistant Professor in the Department of <a href="https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm" style="color: #0047AB; text-decoration: none;">Economics, Justice, and Policy Studies</a> at <a href="https://www.mtroyal.ca/index.htm" style="color: #0047AB; text-decoration: none;">Mount Royal University</a>. As a proud first-generation university graduate, I bring a unique perspective to my research and teaching, shaped by a global academic journey from Seoul to Denver and across Atlantic Canada.
+Hello! I am an Assistant Professor in the Department of <a href="https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm" style="color: #0047AB; text-decoration: none;">Economics, Justice, and Policy Studies</a> at <a href="https://www.mtroyal.ca/index.htm" style="color: #0047AB; text-decoration: none;">Mount Royal University</a>. I am a first-generation university graduate, trained across three countries—South Korea, the United States, and Canada—which informs the way I study how institutions and policy shape economic life.
 
-I earned my Ph.D. from <a href="https://www.dal.ca" style="color: #0047AB; text-decoration: none;">Dalhousie University</a> in 2023 under the supervision of <a href="https://en.wikipedia.org/wiki/Lars_Osberg" style="color: #0047AB; text-decoration: none;">Lars Osberg</a>, following an M.A. from the <a href="https://www.du.edu/" style="color: #0047AB; text-decoration: none;">University of Denver</a>—where I received the *Satish Raichur Award*—and a B.A. from Sogang University. Before joining MRU, I served as a Postdoctoral Fellow at the <a href="https://www.smu.ca/sobey/" style="color: #0047AB; text-decoration: none;">Sobey School of Business</a>, Saint Mary’s University, and as a McKenna Fellow at <a href="https://mta.ca/current-students/frank-mckenna-school-philosophy-politics-and-economics" style="color: #0047AB; text-decoration: none;">Mount Allison University</a>.
+I earned my Ph.D. from <a href="https://www.dal.ca" style="color: #0047AB; text-decoration: none;">Dalhousie University</a> in 2023 under the supervision of <a href="https://en.wikipedia.org/wiki/Lars_Osberg" style="color: #0047AB; text-decoration: none;">Lars Osberg</a>, following an M.A. from the <a href="https://www.du.edu/" style="color: #0047AB; text-decoration: none;">University of Denver</a>—where I received the *Satish Raichur Award*—and a B.A. from Sogang University. Before joining MRU, I served as a Postdoctoral Fellow at the <a href="https://www.smu.ca/sobey/" style="color: #0047AB; text-decoration: none;">Sobey School of Business</a>, Saint Mary's University, and as a McKenna Fellow at <a href="https://mta.ca/current-students/frank-mckenna-school-philosophy-politics-and-economics" style="color: #0047AB; text-decoration: none;">Mount Allison University</a>.
 
+Research
+========
 
-Research & Teaching
-===================
+I study how policy frameworks—from industrial, innovation to competition policy—reshape firm dynamics and economic inequality. My approach draws on **quantitative political economy**, combining theoretical foundations with modern computational methods.
 
-My research explores how policy frameworks—ranging from industrial to competition policy—impact firm dynamics and socioeconomic inequality. To investigate these complex systems, I utilize a **quantitative political economy** approach that bridges traditional theory with modern computational tools.
+On the empirical side, I use **causal inference** and **machine learning** to identify how policies generate uneven effects on innovation and productivity across firms. On the theoretical side, I build **agent-based models** to simulate how large conglomerates (such as South Korea's Chaebols) interact with the broader income distribution—dynamics that are difficult to capture with conventional equilibrium models.
 
-### 1. Computational Political Economy
-My methodology focuses on identifying causal relationships and emergent patterns within economic systems. Specifically, I employ:
-* **Causal Inference & Machine Learning:** Applying quasi-experimental designs and algorithmic frameworks to uncover the heterogeneous impacts of policy on innovation and productivity.
-* **Agent-Based Modeling (ABM):** Developing computational simulations to analyze the interaction between large conglomerates (Chaebols) and the broader income distribution.
+Teaching
+========
 
-### 2. Pluralistic Economic Pedagogy
-In the classroom, I am dedicated to making economics accessible and engaging. My teaching philosophy is built on three pillars:
-* **Non-Conventional Frameworks:** I incorporate insights from **Sraffian** price theory, **Pasinettian** structural change, and **Kaleckian** dynamics to provide students with a robust, multi-perspective understanding of growth and distribution.
-* **Interdisciplinary Frameworks:** I bridge the gap between economic history, political science, and data science to help students understand the institutional forces shaping modern economies.
-* **Applied Narrative:** By integrating real-world data and policy narratives, I aim to help students bridge the gap between abstract economic theory and the complex challenges of the modern world.
-
+I am committed to making economics both rigorous and pluralistic. I organize my teaching around questions that cut across theoretical traditions: How are prices determined? What drives structural transformation? How is income distributed and why? Students engage with Sraffian, Pasinettian, and Kaleckian frameworks not as alternatives to standard models, but as complementary lenses that sharpen their economic reasoning. I also integrate economic history, political science, and data science to foreground the institutional forces behind contemporary policy debates. Throughout, I use real-world data and policy cases to connect abstract theory to the questions students actually care about.
