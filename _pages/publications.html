@@ -1,36 +1,76 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2 style="margin-top: 0.5em;">Published</h2>
 
-{% include base_path %}
+<ul>
+  <li>
+    <a href="https://drive.google.com/file/d/1DcvSQVrGgHYis6B2f2ZtVvhn-DIS7Jcm/view?usp=sharing" style="color: #2F81F7; text-decoration: none; font-weight: bold;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's Heavy and Chemical Industry (HCI) Promotion (1973–1979)</a><br>
+    <em>Journal of Post Keynesian Economics</em> (2023). <a href="https://doi.org/10.1080/01603477.2023.2284394" style="color: #2F81F7; text-decoration: none;">https://doi.org/10.1080/01603477.2023.2284394</a>
+  </li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Under Review</h2>
 
+<ul>
+  <li>
+    <a href="https://drive.google.com/file/d/1YIRyk5A1bg_SFWAjsHvmT9cqxZseyADp/view?usp=sharing" style="color: #2F81F7; text-decoration: none; font-weight: bold;">When Pro-competitive Reforms Fail Labour: Firm-level Evidence from Korea's Chaebols after the Asian Financial Crisis</a> (Job Market Paper)
+  </li>
 
+  <li>
+    <a href="https://drive.google.com/file/d/1USh9gmcXjOjMnI1JihnQqwLvcLFyokef/view?usp=sharing" style="color: #2F81F7; text-decoration: none; font-weight: bold;">The Impact of Clean Technology Innovation Support on Firm-level Energy-related R&amp;D Investment: Evidence from Canada</a><br>
+    w/ Claudia De Fuentes, Hao Lu, and Joniada Milla — Revise &amp; Resubmit, <em>Energy Economics</em>
+  </li>
 
+  <li>
+    <a href="https://drive.google.com/file/d/11-wVol7I7WdjljughTrqidmxiyaFKtPU/view?usp=sharing" style="color: #2F81F7; text-decoration: none; font-weight: bold;">Industrial Policy and Income Inequality Dynamics — Stock-flow Consistent Agent-based Model Approach</a>
+  </li>
+
+  <li>
+    <a href="https://drive.google.com/file/d/1llOPOSDGZj9bRLfcae6-q1sLp50pbkeQ/view?usp=sharing" style="color: #2F81F7; text-decoration: none; font-weight: bold;">Long-term Treatment Effects of Government Support to Spur Innovation in the Atlantic Regions in Canada</a><br>
+    w/ Claudia De Fuentes, Joniada Milla, and Hao Lu
+  </li>
+
+  <li>
+    <a href="https://drive.google.com/file/d/13HOoOkZo2RwI8hbdnzCoHJP18NLXwBRK/view" style="color: #2F81F7; text-decoration: none; font-weight: bold;">An Equity-Centered Analysis of the Canada Disability Benefit, under the Accessible Canada Act</a><br>
+    w/ Daniel Keays
+  </li>
+
+  <li>
+    <a href="https://drive.google.com/file/d/1JK9wDpt9OPXzdltDjr0fPFuq5JvmhoJp/view" style="color: #2F81F7; text-decoration: none; font-weight: bold;">Science and Technology Innovation Policy in Innovation Systems to Address Clean Transitions</a><br>
+    w/ Claudia De Fuentes and Jo Chataway — Book chapter in the 2nd edition of <em>New Handbook on Innovation Systems and Developing Countries</em>
+  </li>
+</ul>
+
+<h2>Working Papers</h2>
+
+<ul>
+  <li>
+    <strong>Bridging the Innovation Divide: Enhancing SME Support for the Green Transition in Korea's STI Ecosystem</strong>
+  </li>
+
+  <li>
+    <strong>Uneven Gains: How Clean Tech Support Differentially Impacts Innovation for Underrepresented vs. Represented Business Owners</strong><br>
+    w/ Claudia De Fuentes
+  </li>
+
+  <li>
+    <strong>Who Bears the Burden of Financial Crisis? Labour Market Responses in Six East Asian Economies — A Generalized Synthetic Control Approach</strong>
+  </li>
+</ul>
+
+<h2>Works in Progress</h2>
+
+<ul>
+  <li>The impact of mainstreaming on learning and well-being of Canadian children living with a disability — w/ Marie-Claire Robitaille and Joniada Milla</li>
+  <li>Do firms that invest in R&amp;D and innovation activities in clean technologies receive support from government agencies? — w/ Claudia De Fuentes</li>
+  <li>Beyond choice: exploring the ripple effects of abortion legalization on parental attitudes and aspirations in the U.S.</li>
+  <li>Curve-linearity between government subsidies on innovation and the private R&amp;D input — w/ Hao Lu, Claudia De Fuentes, and Joniada Milla</li>
+  <li>Inflation and exchange rate pass-through in the U.S. — w/ Yoonho Choi</li>
+  <li>Military service reform and gender payment gap in Korea</li>
+  <li>Housing investment, financial frictions, and business cycle</li>
+</ul>
