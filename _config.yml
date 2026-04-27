@@ -27,7 +27,7 @@ author:
   bio              : "Assistant Professor of Economics"
   employer         : "Mount Royal University"
   location         : "Calgary AB"
-  uri              : "https://jckjung.github.io"
+  #uri              : "https://jckjung.github.io"
   email            : "jjung@mru.ca" 
   # This list below is what actually creates the clickable icons in the sidebar
   links:
