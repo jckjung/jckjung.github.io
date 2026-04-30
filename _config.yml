@@ -28,12 +28,12 @@ author:
   employer         : "Mount Royal University"
   location         : "Calgary AB"
   #uri              : "https://jckjung.github.io"
-  email            : "jjung@mru.ca" 
+  email            : "jjung@mtroyal.ca" 
   # This list below is what actually creates the clickable icons in the sidebar
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:jjung@mru.ca"
+      url: "mailto:jjung@mtroyal.ca"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jckjung"
