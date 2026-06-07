@@ -42,4 +42,17 @@
     "vendor/font-awesome/brands"
 ;
 
+// Custom Typography Scaling
+body {
+  font-size: 15px;       // Marginally reduces base body text size for a sleeker look
+  line-height: 1.5;      // Keeps paragraph spacing tight but readable
+}
 
+h1, .site-title { font-size: 28px !important; } // Scales down your main header name
+h2 { font-size: 22px !important; }             // Scales down section headers ("Research", "About")
+h3 { font-size: 18px !important; }             // Scales down subheadings / paper titles
+
+// Ensure sidebar/navigation labels shrink proportionally 
+.sidebar, .navbar, .nav-item {
+  font-size: 14px !important;
+}
