@@ -9,10 +9,11 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
+/* Replace lines 11-15 with these updated color choices */
+$background                 : #121212; /* Deep matte near-black background */
+$background-light           : #1e1e1e; /* Slightly lighter gray for card containers */
+$background-lighter         : #2a2a2a; /* Muted tone for borders or tables */
+$text                       : #e0e0e0; /* Soft off-white to make reading comfortable */
 $link                       : #0ea1c5;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
