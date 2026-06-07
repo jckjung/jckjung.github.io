@@ -41,3 +41,24 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+// Custom Dark Mode Overrides
+body {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+// Keep page headers and main titles bright white
+h1, h2, h3, h4, h5, h6, .site-title {
+  color: #ffffff !important;
+}
+
+// Optional: Ensure text in your sidebar/navigation links is easily readable
+.sidebar, .masthead, .navigation {
+  background-color: #1a1a1a !important;
+}
+
+a {
+  color: #58a6ff !important;
+}
+
