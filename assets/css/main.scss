@@ -56,3 +56,13 @@ h3 { font-size: 18px !important; }             // Scales down subheadings / pape
 .sidebar, .navbar, .nav-item {
   font-size: 16px !important;
 }
+
+// Increase Left Sidebar Panel Font Size
+.profile {
+  font-size: 15.5px !important; // Adjust this number up or down to find your perfect size
+  
+  // Ensures the small contact icons scale nicely alongside the text
+  i, svg {
+    font-size: 14px !important;
+  }
+}
