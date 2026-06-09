@@ -44,7 +44,7 @@
 
 // Custom Typography Scaling
 body {
-  font-size: 16px;       // Marginally reduces base body text size for a sleeker look
+  font-size: 16px;       // Standard \normalsize text size for body paragraphs
   line-height: 1.6;      // Keeps paragraph spacing tight but readable
 }
 
@@ -52,17 +52,33 @@ h1, .site-title { font-size: 28px !important; } // Scales down your main header 
 h2 { font-size: 22px !important; }             // Scales down section headers ("Research", "About")
 h3 { font-size: 18px !important; }             // Scales down subheadings / paper titles
 
-// Ensure sidebar/navigation labels shrink proportionally 
-.sidebar, .navbar, .nav-item {
-  font-size: 16px !important;
+// Top Navigation Bar Sizing
+.navbar, .nav-item, .masthead {
+  font-size: 15px !important;                    // Keeps top menu crisp and clean
 }
 
-// Increase Left Sidebar Panel Font Size
-.profile {
-  font-size: 16px !important; // Adjust this number up or down to find your perfect size
+// Aggressive Left Sidebar Panel Sizing 
+// Targets the column explicitly and scales every piece of text inside it
+.sidebar, .profile, [class*="sidebar"], [class*="profile"] {
+  font-size: 17.5px !important; // Bumps up the base layout size noticeably
+
+  // Forces your name and title to scale up accordingly
+  .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"] {
+    font-size: 22px !important; 
+  }
   
-  // Ensures the small contact icons scale nicely alongside the text
+  // Forces the title below your name to grow
+  .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"] {
+    font-size: 16px !important;
+  }
+
+  // Forces the contact/social list items (Calgary AB, Email, etc.) to grow
+  ul, li, a, span {
+    font-size: 16.5px !important;
+  }
+
+  // Ensures icons match the larger text size nicely
   i, svg {
-    font-size: 14px !important;
+    font-size: 15px !important;
   }
 }
