@@ -60,7 +60,7 @@ h3 { font-size: 18px !important; }             // Scales down subheadings / pape
 // Aggressive Left Sidebar Panel Sizing 
 // Targets the column explicitly and scales every piece of text inside it
 .sidebar, .profile, [class*="sidebar"], [class*="profile"] {
-  font-size: 17.5px !important; // Bumps up the base layout size noticeably
+  font-size: 16px !important; // Bumps up the base layout size noticeably
 
   // Forces your name and title to scale up accordingly
   .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"] {
@@ -74,11 +74,11 @@ h3 { font-size: 18px !important; }             // Scales down subheadings / pape
 
   // Forces the contact/social list items (Calgary AB, Email, etc.) to grow
   ul, li, a, span {
-    font-size: 16.5px !important;
+    font-size: 16px !important;
   }
 
   // Ensures icons match the larger text size nicely
   i, svg {
-    font-size: 15px !important;
+    font-size: 16px !important;
   }
 }
