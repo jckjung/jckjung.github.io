@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a political economist with interests in functional income distribution and inequality dynamics from various lenses. I am currently an Assistant Professor in the Department of <a href="https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm" style="color: #2F81F7; text-decoration: none;">Economics, Justice, and Policy Studies</a> at Mount Royal University. 
+I am a political and development economist and currently an Assistant Professor in the <a href="https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm" style="color: #2F81F7; text-decoration: none;">Department of Economics, Justice, and Policy Studies</a> at <a href="https://www.mtroyal.ca/" style="color: #2F81F7; text-decoration: none;">Mount Royal University</a>. My research focuses on functional income distribution, inequality dynamics, innovation, and industrial policy, which I examine through a variety of methodological and theoretical lenses.  
 
-A first-generation university graduate, I received my Ph.D. in Economics from Dalhousie University in 2023 under the supervision of <a href="https://en.wikipedia.org/wiki/Lars_Osberg" style="color: #2F81F7; text-decoration: none;">Lars Osberg</a>, following an M.A. from the University of Denver—where I received the *Satish Raichur Award*. Before joining MRU, I was a Postdoctoral Fellow at the Sobey School of Business</a>, Saint Mary's University and as a <a href="https://mta.ca/current-students/frank-mckenna-school-philosophy-politics-and-economics" style="color: #2F81F7; text-decoration: none;">McKenna Fellow</a> at Mount Allison University.
+A first-generation university graduate, I received my Ph.D. in Economics from <a href="https://www.dal.ca/" style="color: #2F81F7; text-decoration: none;">Dalhousie University</a> in 2023 under the supervision of <a href="https://www.dal.ca/faculty/science/economics/faculty-staff/our-faculty/professors/lars-osberg.html" style="color: #2F81F7; text-decoration: none;">Lars Osberg</a>, following an M.A. from the <a href="https://www.du.edu/" style="color: #2F81F7; text-decoration: none;">University of Denver</a>—where I received the *Satish Raichur Award*. Before joining MRU, I gained valuable research and teaching experience as a Postdoctoral Fellow at the <a href="https://www.smu.ca/sobey/" style="color: #2F81F7; text-decoration: none;">Sobey School of Business</a>, <a href="https://www.smu.ca/" style="color: #2F81F7; text-decoration: none;">Saint Mary's University</a> and a <a href="https://mta.ca/current-students/frank-mckenna-school-philosophy-politics-and-economics" style="color: #2F81F7; text-decoration: none;">McKenna Fellow</a> at <a href="https://mta.ca/" style="color: #2F81F7; text-decoration: none;">Mount Allison University</a>.
 
 Research
 ========
@@ -20,7 +20,3 @@ My research sits at the intersection of development economics and political econ
 * **Political Economy and Labour Economics:** Income distribution, pro-competitive reforms, inequality, gender inequality
 * **Development Economics:** Energy economics, public policy, industrial and innovation policy, firm dynamics
 
-Teaching
-========
-
-I am committed to making economics both rigorous and pluralistic, organizing my teaching around fundamental questions that cut across theoretical traditions: How are prices determined? What drives structural transformation? How is income distributed, and why? By integrating economic history, political economy, and data science, I highlight the institutional forces that shape contemporary policy debates. Throughout my courses, I use real-world data and applied cases to bridge the gap between abstract theory and the societal challenges students care about most.
