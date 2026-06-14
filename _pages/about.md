@@ -54,7 +54,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
     <span style="font-style: italic; color: #8c8c8c;"> — Under Review</span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="https://drive.google.com/file/d/11-wVol7I7WdjljughTrqidmxiyaFKtPU/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
-      ·<details style="display: inline;">
+      · <details style="display: inline;">
         <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
         <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
           How does selective industrial policy generate persistent income inequality? We develop an evolutionary agent-based model motivated by Korea's Heavy and Chemical Industry drive (1973&ndash;1979) in which preferential credit, strategic demand support, and capability-based firm selection endogenously produce dominant business groups (<i>chaebols</i>). Inequality emerges through three reinforcing channels: asymmetric credit creates financial hierarchy, Kaleckian markup concentration redistributes income from wages to profits, and segmented labour markets generate persistent wage dualism. Simulations show that industrial promotion raises output by approximately 40% but increases the income Gini from 0.28 to 
@@ -71,7 +71,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
     <span style="font-style: italic; color: #8c8c8c;"> — Working Paper</span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="https://drive.google.com/file/d/1llOPOSDGZj9bRLfcae6-q1sLp50pbkeQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
-       ·<details style="display: inline;">
+       · <details style="display: inline;">
         <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
         <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
           The impact of innovation efforts has been recognized as an important economic and social process due to the outcomes that it generates, both in terms of the production and accumulation of knowledge throughout the innovation process and the innovative products that are generated
@@ -105,9 +105,7 @@ in R&D and innovation activities, while at the same time contributing to improve
         <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
           This study explores the impact of state’s industrial policy on sectoral capacity utilization and growth in total output in the context of the Korea’s Heavy and Chemical Industry (HCI) promotion (1973–1979). Using a Kalecki-Steindl framework within a two-sector open economy, the study first finds that primary industrial policy instruments&emdash;preferential interest rates and export promotion regime&emdash;have a positive effect on capacity utilization (aggregate demand) and economic growth, but unbalanced sectoral dependence undermines the effect of industrial policy. Second, the increased market power of firms in the targeted sector has a dual impact on the sectoral capacity, depending on the productivity growth characteristics of each sector. Third, the industrial policy regime is highly susceptible to adverse external price shocks. These findings are consistent with the Korean growth experience during the HCI promotion period in which chaebols (big business groups) flourished, and the economy suffered from stagflation and idle capacity in the final stage of HCI promotion.
         </p>
-      </details>
-      ·
-      [<a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a>]
+      </details> · [<a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a>]
     </span>
   </li>
 </ul>
