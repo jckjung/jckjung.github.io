@@ -161,3 +161,13 @@ h3 { font-size: 18px !important; }
 .page__content ul {
   margin-bottom: 0.8rem !important;
 }
+// ==========================================
+// Larger Profile Picture
+// ==========================================
+
+.author__avatar img {
+  width: 220px !important;
+  max-width: 220px !important;
+  height: 300px !important;
+  object-fit: cover !important;
+}
