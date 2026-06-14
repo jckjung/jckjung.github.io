@@ -5,7 +5,7 @@
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -42,49 +42,72 @@
     "vendor/font-awesome/brands"
 ;
 
-// Custom Typography Scaling
+// ==========================================
+// Custom Typography Scaling & Eye-Fatigue Overrides
+// ==========================================
+
 body {
   font-size: 16px;       // Standard \normalsize text size for body paragraphs
   line-height: 1.6;      // Keeps paragraph spacing tight but readable
-  background-color: #fbfaf7 !important; /* Soft book-paper white */
-  color: #24292f !important;            /* Muted dark gray instead of pure black */ 
+  
+  // High-visibility, anti-glare light mode foundation
+  background-color: #f5f4f0 !important; 
+  
+  // Sweeps through and forces all raw layout elements out of theme-default white
+  &, p, li, span, td, th, div, main, article, section {
+    color: #202428 !important;            
+  }
 }
-// Ensure hyperlinks stay accessible and deep enough to read on the warm paper hue
+
+// Global Hyperlink & Icon Link Consistency
 a {
   color: #0969da !important; 
-}
-
-h1, .site-title { font-size: 28px !important; } // Scales down your main header name
-h2 { font-size: 22px !important; }             // Scales down section headers ("Research", "About")
-h3 { font-size: 18px !important; }             // Scales down subheadings / paper titles
-
-// Top Navigation Bar Sizing
-.navbar, .nav-item, .masthead {
-  font-size: 16px !important;                    // Keeps top menu crisp and clean
-}
-
-// Aggressive Left Sidebar Panel Sizing 
-// Targets the column explicitly and scales every piece of text inside it
-.sidebar, .profile, [class*="sidebar"], [class*="profile"] {
-  font-size: 16px !important; // Bumps up the base layout size noticeably
-
-  // Forces your name and title to scale up accordingly
-  .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"] {
-    font-size: 16px !important; 
+  text-decoration: none;
+  
+  // Forces nested text spans or icons inside buttons/links to follow blue branding
+  span, i, svg, strong, em {
+    color: #0969da !important;
   }
   
-  // Forces the title below your name to grow
-  .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"] {
-    font-size: 16px !important;
+  &:hover {
+    text-decoration: underline;
   }
+}
 
-  // Forces the contact/social list items (Calgary AB, Email, etc.) to grow
-  ul, li, a, span {
-    font-size: 16px !important;
+// Typography Headers: Overriding theme defaults to deep charcoal
+h1, .site-title { 
+  font-size: 28px !important; 
+  color: #202428 !important;
+} 
+h2 { 
+  font-size: 22px !important; 
+  color: #202428 !important;
+}              
+h3 { 
+  font-size: 18px !important; 
+  color: #202428 !important;
+}              
+
+// Top Navigation Bar Sizing & Visibility
+.navbar, .nav-item, .masthead, .site-nav {
+  font-size: 16px !important;                    
+  color: #202428 !important;
+  
+  a, span, div { 
+    color: #202428 !important; 
   }
+}
 
-  // Ensures icons match the larger text size nicely
-  i, svg {
+// Left Sidebar & Profile Panel Visibility Overrides
+// Targets the entire layout column and forces high contrast visibility over white text artifacts
+.sidebar, .profile, [class*="sidebar"], [class*="profile"], .author-profile {
+  font-size: 16px !important; 
+
+  // Aggressive cascading overrides for names, titles, bios, metadata, links, and text
+  .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"],
+  .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"],
+  ul, li, a, span, i, svg, .author-urls, .author-social {
     font-size: 16px !important;
+    color: #202428 !important; 
   }
 }
