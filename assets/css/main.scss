@@ -46,6 +46,12 @@
 body {
   font-size: 16px;       // Standard \normalsize text size for body paragraphs
   line-height: 1.6;      // Keeps paragraph spacing tight but readable
+  background-color: #fbfaf7 !important; /* Soft book-paper white */
+  color: #24292f !important;            /* Muted dark gray instead of pure black */ 
+}
+// Ensure hyperlinks stay accessible and deep enough to read on the warm paper hue
+a {
+  color: #0969da !important; 
 }
 
 h1, .site-title { font-size: 28px !important; } // Scales down your main header name
