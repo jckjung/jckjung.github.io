@@ -1,3 +1,6 @@
+---
+---
+
 /*
  * This file controls what is imported from /_sass
  *
@@ -14,6 +17,8 @@
 // ==========================================
 // ANTI-GLARE LIGHT MODE CORE VARIABLES
 // ==========================================
+// We intercept the variables right after the light theme loads, forcing the 
+// entire page canvas, text, and containers to use our eye-friendly matte theme.
 $background-color: #f5f4f0 !important;
 $bg-color:         #f5f4f0 !important;
 $body-background:  #f5f4f0 !important;
@@ -27,6 +32,8 @@ $link-color:       #0969da !important;
 // ==========================================
 // RESTORE NATIVE DARK MODE CORE VARIABLES
 // ==========================================
+// This native CSS media query ensures that if a user toggles Dark Mode or their system 
+// requests dark styling, the dark variables immediately take over, saving your dark theme.
 @media (prefers-color-scheme: dark) {
   $background-color: null;
   $bg-color:         null;
@@ -65,75 +72,44 @@ $link-color:       #0969da !important;
 ;
 
 // ==========================================
-// Original Custom Typography Scaling
+// Original Custom Typography Scaling (Maintained Verbatim)
 // ==========================================
 body {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 16px;       // Standard \normalsize text size for body paragraphs
+  line-height: 1.6;      // Keeps paragraph spacing tight but readable
 }
 
-h1, .site-title {
-  font-size: 28px !important;
-}
-
-h2 {
-  font-size: 22px !important;
-}
-
-h3 {
-  font-size: 18px !important;
-}
+h1, .site-title { font-size: 28px !important; } // Scales down your main header name
+h2 { font-size: 22px !important; }              // Scales down section headers ("Research", "About")
+h3 { font-size: 18px !important; }              // Scales down subheadings / paper titles
 
 // Top Navigation Bar Sizing
 .navbar, .nav-item, .masthead {
-  font-size: 16px !important;
+  font-size: 16px !important;                    // Keeps top menu crisp and clean
 }
 
-// Aggressive Left Sidebar Panel Sizing
+// Aggressive Left Sidebar Panel Sizing 
+// Targets the column explicitly and scales every piece of text inside it
 .sidebar, .profile, [class*="sidebar"], [class*="profile"] {
-  font-size: 16px !important;
+  font-size: 16px !important; // Bumps up the base layout size noticeably
 
+  // Forces your name and title to scale up accordingly
   .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"] {
-    font-size: 16px !important;
+    font-size: 16px !important; 
   }
-
+  
+  // Forces the title below your name to grow
   .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"] {
     font-size: 16px !important;
   }
 
+  // Forces the contact/social list items (Calgary AB, Email, etc.) to grow
   ul, li, a, span {
     font-size: 16px !important;
   }
 
+  // Ensures icons match the larger text size nicely
   i, svg {
     font-size: 16px !important;
   }
-}
-
-// ==========================================
-// Publication / Paper Title Color Fix
-// Light mode only: keeps dark mode untouched
-// ==========================================
-@media (prefers-color-scheme: light) {
-
-  .archive__item-title,
-  .archive__item-title a,
-  .publication-title,
-  .publication-title a,
-  .pub-title,
-  .pub-title a,
-  .paper-title,
-  .paper-title a,
-  .page__content .archive__item-title,
-  .page__content .archive__item-title a {
-    color: #425466 !important;
-  }
-
-  .archive__item-title a:hover,
-  .publication-title a:hover,
-  .pub-title a:hover,
-  .paper-title a:hover {
-    color: #0969da !important;
-  }
-
 }
