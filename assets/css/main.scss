@@ -42,9 +42,9 @@
     "vendor/font-awesome/brands"
 ;
 
-// ==========================================================================
-// Original Custom Typography Scaling (Maintained Verbatim)
-// ==========================================================================
+// ==========================================
+// Original Custom Typography Scaling (Restored)
+// ==========================================
 body {
   font-size: 16px;       // Standard \normalsize text size for body paragraphs
   line-height: 1.6;      // Keeps paragraph spacing tight but readable
@@ -85,26 +85,33 @@ h3 { font-size: 18px !important; }              // Scales down subheadings / pap
   }
 }
 
-// ==========================================================================
-// Isolated Anti-Glare Extensions (Safely Targeting Light Mode Layouts)
-// ==========================================================================
+// ==========================================
+// Protected Light Mode Custom Overrides
+// ==========================================
 
-// This scopes color fixes strictly to the main body layout wrapper during light mode
-// without touching your global headers, navigation rules, or dark mode config.
-.theme--light, [data-theme="light"], body:not(.theme--dark) {
+// This wrapper blocks these rules completely unless your site is explicitly rendering light mode,
+// preventing any styling bleeding into your dark mode settings.
+html.light, body.light, .theme--light, [data-theme="light"] {
   
-  // Sets the main text container background to a soft, eye-friendly matte white
-  #main, .page, .wrapper, role[main], article {
+  // The global page background
+  background-color: #f5f4f0 !important;
+  
+  // Main page text container
+  #main, .page, .wrapper, main, #content {
     background-color: #f5f4f0 !important;
-  }
-
-  // Ensures content text inside the main page container becomes a crisp charcoal
-  .page-content, .page__content, article p, article li, article span {
     color: #202428 !important;
   }
 
-  // Forces titles inside your page layout to remain fully visible against the matte gray
-  article h1, article h2, article h3, .page-title {
+  // Headings and content body text
+  p, li, span, h1, h2, h3, article {
     color: #202428 !important;
+  }
+
+  // Custom link color adjustments for anti-glare mode
+  a {
+    color: #0969da !important;
+    span, strong, em {
+      color: #0969da !important;
+    }
   }
 }
