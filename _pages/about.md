@@ -1,15 +1,15 @@
 ---
 permalink: /
-title: "About"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello! I am an Assistant Professor in the Department of <a href="https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm" style="color: #2F81F7; text-decoration: none;">Economics, Justice, and Policy Studies</a> at Mount Royal University. 
+I am a political economist with interests in functional income distribution and inequality dynamics from various lenses. I am currently an Assistant Professor in the Department of <a href="https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EconomicsJusticePolicyStudies/index.htm" style="color: #2F81F7; text-decoration: none;">Economics, Justice, and Policy Studies</a> at Mount Royal University. 
 
-A first-generation university graduate, I earned my Ph.D. from Dalhousie University in 2023 under the supervision of <a href="https://en.wikipedia.org/wiki/Lars_Osberg" style="color: #2F81F7; text-decoration: none;">Lars Osberg</a>, following an M.A. from the University of Denver—where I received the *Satish Raichur Award*—and a B.A. from Sogang University. Before joining MRU, I served as a Postdoctoral Fellow at the <a href="https://www.smu.ca/sobey/" style="color: #2F81F7; text-decoration: none;">Sobey School of Business</a>, Saint Mary's University, working with <a href="https://www.smu.ca/claudia-de-fuentes/claudia-de-fuentes-biography.html" style="color: #2F81F7; text-decoration: none;">Claudia De Fuentes</a>, and as a <a href="https://mta.ca/current-students/frank-mckenna-school-philosophy-politics-and-economics" style="color: #2F81F7; text-decoration: none;">McKenna Fellow</a> at Mount Allison University.
+A first-generation university graduate, I received my Ph.D. in Economics from Dalhousie University in 2023 under the supervision of <a href="https://en.wikipedia.org/wiki/Lars_Osberg" style="color: #2F81F7; text-decoration: none;">Lars Osberg</a>, following an M.A. from the University of Denver—where I received the *Satish Raichur Award*. Before joining MRU, I was a Postdoctoral Fellow at the Sobey School of Business</a>, Saint Mary's University and as a <a href="https://mta.ca/current-students/frank-mckenna-school-philosophy-politics-and-economics" style="color: #2F81F7; text-decoration: none;">McKenna Fellow</a> at Mount Allison University.
 
 Research
 ========
