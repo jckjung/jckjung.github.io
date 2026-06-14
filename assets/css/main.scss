@@ -113,3 +113,15 @@ h3 { font-size: 18px !important; }              // Scales down subheadings / pap
     font-size: 16px !important;
   }
 }
+
+// ==========================================
+// Paper title visibility fix — narrow version
+// ==========================================
+@media (prefers-color-scheme: light) {
+  .archive__item-title,
+  .archive__item-title a {
+    color: #425466 !important;
+  }
+}
+
+
