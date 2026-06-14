@@ -24,7 +24,8 @@ author:
   avatar           : "jung2022photo_self_peggys_cove2.jpeg"
   name             : "Joseph Chul-kyoo Jung"
   pronouns         : # example: "she/her"  
-  bio              : "<span style='display: block; margin-bottom: 1.5rem;'></span>"
+  bio              : "</span></div><style>.sidebar .profile, .author-profile { text-align: center !important; } .author-profile__avatar, .profile-name, .author-name, .author-bio, .author-urls { display: block !important; margin-left: auto !important; margin-right: auto !important; text-align: center !important; } .author-urls li { display: flex !important; justify-content: center !important; align-items: center !important; text-align: left !important; }</style><span style='display: block; margin-bottom: 1.5rem;'></span>"
+  
   employer         : "Mount Royal University"
   #location         : "Calgary AB"
   #uri              : "https://jckjung.github.io"
