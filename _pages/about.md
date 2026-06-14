@@ -118,12 +118,42 @@ in R&D and innovation activities, while at the same time contributing to improve
 
 
 <h2>Works in Progress</h2>
-  <li><strong>Bridging the Innovation Divide: Enhancing SME Support for the Green Transition in Korea's STI Ecosystem</strong></li>
-  <li><strong>Uneven Gains: How Clean Tech Support Differentially Impacts Innovation for Underrepresented vs. Represented Business Owners</strong> — with Claudia De Fuentes</li>
-  <li><strong>Who Bears the Burden of Financial Crisis? Labour Market Responses in Six East Asian Economies: A Generalized Synthetic Control Approach</strong></li>
-  <li><strong>The Impact of Mainstreaming on Learning and Well-Being of Canadian Children Living with a Disability</strong> — with Marie-Claire Robitaille and Joniada Milla</li>
-  <li><strong>Do Firms That Invest in R&amp;D and Innovation Activities in Clean Technologies Receive Support from Government Agencies?</strong> — with Claudia De Fuentes</li>
-  <li><strong>Beyond Choice: Exploring the Ripple Effects of Abortion Legalization on Parental Attitudes and Aspirations in the United States</strong></li>
-  <li><strong>Nonlinear Effects of Government Innovation Subsidies on Private R&amp;D Investment</strong> — with Hao Lu, Claudia De Fuentes, and Joniada Milla</li>
-  <li><strong>Military Service Reform and the Gender Pay Gap in Korea</strong></li>
-  <li><strong>Housing Investment, Financial Frictions, and Business Cycles</strong></li>
+<ul style="list-style-type: none; padding-left: 0;">
+
+  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
+    <strong>Bridging the Innovation Divide: Enhancing SME Support for the Green Transition in Korea's STI Ecosystem</strong>
+  </li>
+
+  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
+    <strong>Uneven Gains: How Clean Tech Support Differentially Impacts Innovation for Underrepresented vs. Represented Business Owners</strong> — with Claudia De Fuentes
+  </li>
+
+  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
+    <strong>Who Bears the Burden of Financial Crisis? Labour Market Responses in Six East Asian Economies: A Generalized Synthetic Control Approach</strong>
+  </li>
+
+  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
+    <strong>The Impact of Mainstreaming on Learning and Well-Being of Canadian Children Living with a Disability</strong> — with Marie-Claire Robitaille and Joniada Milla
+  </li>
+
+  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
+    <strong>Do Firms That Invest in R&amp;D and Innovation Activities in Clean Technologies Receive Support from Government Agencies?</strong> — with Claudia De Fuentes
+  </li>
+
+  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
+    <strong>Beyond Choice: Exploring the Ripple Effects of Abortion Legalization on Parental Attitudes and Aspirations in the United States</strong>
+  </li>
+
+  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
+    <strong>Nonlinear Effects of Government Innovation Subsidies on Private R&amp;D Investment</strong> — with Hao Lu, Claudia De Fuentes, and Joniada Milla
+  </li>
+
+  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
+    <strong>Military Service Reform and the Gender Pay Gap in Korea</strong>
+  </li>
+
+  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
+    <strong>Housing Investment, Financial Frictions, and Business Cycles</strong>
+  </li>
+
+</ul>
