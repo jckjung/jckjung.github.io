@@ -17,8 +17,6 @@
 // ==========================================
 // ANTI-GLARE LIGHT MODE CORE VARIABLES
 // ==========================================
-// We intercept the variables right after the light theme loads, forcing the 
-// entire page canvas, text, and containers to use our eye-friendly matte theme.
 $background-color: #f5f4f0 !important;
 $bg-color:         #f5f4f0 !important;
 $body-background:  #f5f4f0 !important;
@@ -26,14 +24,15 @@ $text-color:       #202428 !important;
 $body-color:       #202428 !important;
 $link-color:       #0969da !important;
 
+// We set a custom variable for paper titles that defaults to charcoal gray
+$paper-title-color: #202428;
+
 @import 
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
 
 // ==========================================
 // RESTORE NATIVE DARK MODE CORE VARIABLES
 // ==========================================
-// This native CSS media query ensures that if a user toggles Dark Mode or their system 
-// requests dark styling, the dark variables immediately take over, saving your dark theme.
 @media (prefers-color-scheme: dark) {
   $background-color: null;
   $bg-color:         null;
@@ -41,6 +40,9 @@ $link-color:       #0969da !important;
   $text-color:       null;
   $body-color:       null;
   $link-color:       null;
+  
+  // When the user's system flips to dark mode, paper titles safely clear back to white/default
+  $paper-title-color: null;
 }
 
 @import
@@ -72,7 +74,7 @@ $link-color:       #0969da !important;
 ;
 
 // ==========================================
-// Original Custom Typography Scaling (Maintained Verbatim)
+// Custom Typography Scaling
 // ==========================================
 body {
   font-size: 16px;       // Standard \normalsize text size for body paragraphs
@@ -81,7 +83,13 @@ body {
 
 h1, .site-title { font-size: 28px !important; } // Scales down your main header name
 h2 { font-size: 22px !important; }              // Scales down section headers ("Research", "About")
-h3 { font-size: 18px !important; }              // Scales down subheadings / paper titles
+
+// FIXED: This now dynamically applies the color variable so it's charcoal in light mode
+// and automatically resets to standard light text in dark mode.
+h3 { 
+  font-size: 18px !important; 
+  color: $paper-title-color !important; 
+}              
 
 // Top Navigation Bar Sizing
 .navbar, .nav-item, .masthead {
