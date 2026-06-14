@@ -192,10 +192,14 @@ h3 { font-size: 18px !important; }
 // Remove profile image frame/border
 // ==========================================
 
-.author__avatar,
+.author__avatar {
+    padding: 0 !important;
+    margin: 0 auto !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
 .author__avatar img {
     border: none !important;
     box-shadow: none !important;
-    outline: none !important;
-    background: transparent !important;
 }
