@@ -99,9 +99,12 @@ in R&D and innovation activities, while at the same time contributing to improve
         This study explores the impact of state’s industrial policy on sectoral capacity utilization and growth in total output in the context of the Korea’s Heavy and Chemical Industry (HCI) promotion (1973–1979). Using a Kalecki-Steindl framework within a two-sector open economy, the study first finds that primary industrial policy instruments&mdash;preferential interest rates and export promotion regime&mdash;have a positive effect on capacity utilization (aggregate demand) and economic growth, but unbalanced sectoral dependence undermines the effect of industrial policy. Second, the increased market power of firms in the targeted sector has a dual impact on the sectoral capacity, depending on the productivity growth characteristics of each sector. Third, the industrial policy regime is highly susceptible to adverse external price shocks. These findings are consistent with the Korean growth experience during the HCI promotion period in which chaebols (big business groups) flourished, and the economy suffered from stagflation and idle capacity in the final stage of HCI promotion.
       </span>
     </details>
-    <span style="color: #4589ff; margin: 0 2px;">&middot;</span>
-    <span style="color: #4589ff;">[</span><a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a><span style="color: #4589ff;">]</span>
+ · 
+<span style="color: #4589ff; margin: 0 2px;">&middot;</span>
+      <span style="color: #4589ff;">[</span><a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a><span style="color: #4589ff;">]</span>
+    </span>
   </li>
+  
   
   <!-- Paper 5 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
