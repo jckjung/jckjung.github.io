@@ -16,7 +16,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
 
   <!-- Paper 1 -->
   <li style="margin-bottom: 1.8rem;">
-      <span style="font-weight: 600; color: #425466;">Pro-competitive Reform Bundling and the Labour Share: Evidence from Korea's <i>Chaebol</i> Restructuring</span>
+      <span style="font-weight: 600; color: #607a94;">Pro-competitive Reform Bundling and the Labour Share: Evidence from Korea's <i>Chaebol</i> Restructuring</span>
       <br>
       <span style="font-style: italic; color: #8c8c8c;">Under Review</span> 
       <span style="color: #4589ff; margin-left: 4px;">
@@ -30,7 +30,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
 
     <!-- Paper 2 -->
   <li style="margin-bottom: 1.8rem;">
-      <span style="font-weight: 600; color: #425466;">The Impact of Clean Technology Innovation Support on Firm-level Energy-related R&amp;D Investment: Evidence from Canada</span>, <span style="color: #ffffff;">with Claudia De Fuentes, Hao Lu, and Joniada Milla</span>
+      <span style="font-weight: 600; color: #607a94;">The Impact of Clean Technology Innovation Support on Firm-level Energy-related R&amp;D Investment: Evidence from Canada</span>, <span style="color: #ffffff;">with Claudia De Fuentes, Hao Lu, and Joniada Milla</span>
       <br>
       <span style="font-style: italic; color: #8c8c8c;">Revise &amp; Resubmit, <strong>Energy Economics</strong></span> 
       <span style="color: #4589ff; margin-left: 4px;">
@@ -45,7 +45,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
 
     <!-- Paper 3 -->
   <li style="margin-bottom: 1.8rem;">
-      <span style="font-weight: 600; color: #425466;">Selective Industrial Policy and Persistent Inequality: An Agent-Based Model of <i>Chaebol</i> Emergence and Hierarchical Capitalism in Korea</span>
+      <span style="font-weight: 600; color: #607a94;">Selective Industrial Policy and Persistent Inequality: An Agent-Based Model of <i>Chaebol</i> Emergence and Hierarchical Capitalism in Korea</span>
       <br>
       <span style="font-style: italic; color: #8c8c8c;">Under Review</span> 
       <span style="color: #4589ff; margin-left: 4px;">
@@ -65,7 +65,7 @@ inequality benchmark, consistent with the substantial variation across existing 
 
     <!-- Paper 4 -->
    <li style="margin-bottom: 1.8rem;">
-      <span style="font-weight: 600; color: #425466;">Long-term Treatment Effects of Government Support to Spur Innovation in the Atlantic Regions in Canada</span>, <span style="color: #ffffff;">with Claudia De Fuentes, Joniada Milla, and Hao Lu</span>
+      <span style="font-weight: 600; color: #607a94;">Long-term Treatment Effects of Government Support to Spur Innovation in the Atlantic Regions in Canada</span>, <span style="color: #ffffff;">with Claudia De Fuentes, Joniada Milla, and Hao Lu</span>
       <br>
       <span style="font-style: italic; color: #8c8c8c;">Working Paper</span> 
       <span style="color: #4589ff; margin-left: 4px;">
@@ -84,7 +84,7 @@ performance.
 
     <!-- Paper 5 -->
   <li style="margin-bottom: 1.8rem;">
-      <span style="font-weight: 600; color: #425466;">Science and Technology Innovation Policy in Innovation Systems to Address Clean Transitions</span>, <span style="color: #ffffff;">with Claudia De Fuentes and Jo Chataway</span>
+      <span style="font-weight: 600; color: #607a94;">Science and Technology Innovation Policy in Innovation Systems to Address Clean Transitions</span>, <span style="color: #ffffff;">with Claudia De Fuentes and Jo Chataway</span>
       <br>
       <span style="font-style: italic; color: #8c8c8c;"><strong>Book Chapter, New Handbook on Innovation Systems and Developing Countries (2nd edition)</strong>(Under Review)</span> 
       <span style="color: #4589ff; margin-left: 4px;">
@@ -97,7 +97,7 @@ performance.
     </li>
     <!-- Paper 6 -->
   <li style="margin-bottom: 1.8rem;">
-      <span style="font-weight: 600; color: #425466;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's Heavy and Chemical Industry (HCI) Promotion (1973–1979)</span>
+      <span style="font-weight: 600; color: #607a94;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's Heavy and Chemical Industry (HCI) Promotion (1973–1979)</span>
       <br>
       <span style="font-style: italic; color: #8c8c8c;"><strong>Journal of Post Keynesian Economics, 2023</strong></span> 
       <span style="color: #4589ff; margin-left: 4px;">
