@@ -86,38 +86,20 @@ in R&D and innovation activities, while at the same time contributing to improve
   </li>
 
 <!-- Paper 6 -->
-<li style="margin-bottom: 0.45rem; line-height: 1.35; color: #202428;">
-  <span style="font-weight: 600; color: #66819c;">
-    Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's HCI Promotion, 1973&ndash;1979
-  <span style="font-style: italic; color: #8c8c8c;"></span>
-    — <strong>Journal of Post Keynesian Economics</strong>, 2023</span>
+<li style="margin-bottom: 0.45rem; line-height: 1.35;">
+  <span style="font-weight: 600; color: #66819c;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's HCI Promotion, 1973–1979</span>
+  <span style="font-style: italic; color: #8c8c8c;"> — Journal of Post Keynesian Economics, 2023</span>
   <span style="color: #4589ff; margin-left: 4px;">
-    [<a href="https://drive.google.com/file/d/1DcvSQVrGgHYis6B2f2ZtVvhn-DIS7Jcm/view?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
-        style="color: #4589ff; text-decoration: none;">paper</a>]
-    <span style="margin: 0 2px;">&middot;</span>
-     <span style="
-        display:block;
-        margin-top:0.4rem;
-        color:#8c8c8c;
-        font-size:0.95rem;
-        line-height:1.45;
-        padding-left:0.5rem;
-        font-weight:normal;
-        font-style:normal;">
+    [<a href="https://drive.google.com/file/d/1DcvSQVrGgHYis6B2f2ZtVvhn-DIS7Jcm/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
+     · 
     <details style="display: inline;">
-      <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">
-        [abstract&blacktriangledown;]
-      </summary> <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">  
-        This study explores the impact of state’s industrial policy on sectoral capacity utilization and growth in total output in the context of Korea’s Heavy and Chemical Industry (HCI) promotion (1973–1979). Using a Kalecki-Steindl framework within a two-sector open economy, the study first finds that primary industrial policy instruments&mdash;preferential interest rates and export promotion regime&mdash;have a positive effect on capacity utilization (aggregate demand) and economic growth, but unbalanced sectoral dependence undermines the effect of industrial policy. Second, the increased market power of firms in the targeted sector has a dual impact on sectoral capacity, depending on productivity growth characteristics. Third, the industrial policy regime is highly susceptible to adverse external price shocks.
+      <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
+      <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
+        This study explores the impact of state's industrial policy on sectoral capacity utilization and growth in total output in the context of Korea's Heavy and Chemical Industry (HCI) promotion (1973–1979). Using a Kalecki-Steindl framework within a two-sector open economy, the study first finds that primary industrial policy instruments—preferential interest rates and export promotion regime—have a positive effect on capacity utilization (aggregate demand) and economic growth, but unbalanced sectoral dependence undermines the effect of industrial policy. Second, the increased market power of firms in the targeted sector has a dual impact on sectoral capacity, depending on productivity growth characteristics. Third, the industrial policy regime is highly susceptible to adverse external price shocks.
       </p>
     </details>
-    <span style="margin: 0 2px;">&middot;</span>
-    [<a href="https://doi.org/10.1080/01603477.2023.2284394"
-        target="_blank"
-        rel="noopener noreferrer"
-        style="color: #4589ff; text-decoration: none;">journal doi</a>]
+     · 
+    [<a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a>]
   </span>
 </li>
   
