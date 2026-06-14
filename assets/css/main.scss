@@ -24,7 +24,7 @@ $text-color:       #202428 !important;
 $body-color:       #202428 !important;
 $link-color:       #0969da !important;
 
-// We set a flag variable here to trigger high-visibility title colors in light mode
+// Condition flag for light mode layout styling
 $light-mode-active: true;
 
 @import 
@@ -41,7 +41,6 @@ $light-mode-active: true;
   $body-color:       null;
   $link-color:       null;
   
-  // Turn off the light mode layout flags so dark mode remains 100% untouched
   $light-mode-active: false;
 }
 
@@ -83,23 +82,34 @@ body {
 
 h1, .site-title { font-size: 28px !important; } // Scales down your main header name
 h2 { font-size: 22px !important; }              // Scales down section headers ("Research", "About")
+h3 { font-size: 18px !important; }              
 
 // ==========================================
-// FIXED HIGH-VISIBILITY PAPER TITLES
+// FIXED: TARGETING ACTUAL PAPER LIST CODES
 // ==========================================
-h3 { 
-  font-size: 18px !important; 
-  
-  @if $light-mode-active == true {
-    // This forces paper titles to render in a distinct steel-charcoal gray in light mode
-    color: #1a446c !important; 
-    
-    // This catches any links or inline text tags nested inside your titles and strips the white color
-    &, a, span, strong, em {
+// This explicitly targets the lists where your papers are housed on the main page.
+@if $light-mode-active == true {
+  ul li, .page li, main li {
+    // Forces the unlinked paper text details to be visible dark charcoal
+    color: #202428 !important;
+
+    // Forces your actual paper title links to be a highly distinct, deep slate blue
+    a, [style*="color: #2F81F7"], [style*="color: #4589ff"] {
       color: #1a446c !important;
+      font-weight: 600; // Gives it structural weight so it pops as a title
+      
+      // Ensures italics (like "Chaebol") don't break the color choice
+      i, em, strong {
+        color: #1a446c !important;
+      }
+    }
+    
+    // Keeps your abstract buttons looking like clean, interactive actions
+    summary, .abstract-btn {
+      color: #0969da !important;
     }
   }
-}              
+}
 
 // Top Navigation Bar Sizing
 .navbar, .nav-item, .masthead {
@@ -107,31 +117,28 @@ h3 {
 }
 
 // Aggressive Left Sidebar Panel Sizing 
-// Targets the column explicitly and scales every piece of text inside it
 .sidebar, .profile, [class*="sidebar"], [class*="profile"] {
-  font-size: 16px !important; // Bumps up the base layout size noticeably
+  font-size: 16px !important; 
 
-  // Forces your name and title to scale up accordingly
   .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"] {
     font-size: 16px !important; 
-    
-    // Keeps sidebar text readable regardless of the layout rules above
     @if $light-mode-active == true {
       color: #202428 !important;
     }
   }
   
-  // Forces the title below your name to grow
   .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"] {
     font-size: 16px !important;
   }
 
-  // Forces the contact/social list items (Calgary AB, Email, etc.) to grow
   ul, li, a, span {
     font-size: 16px !important;
+    // Overrides the paper list color fix above so your sidebar details don't turn blue
+    @if $light-mode-active == true {
+      color: #202428 !important;
+    }
   }
 
-  // Ensures icons match the larger text size nicely
   i, svg {
     font-size: 16px !important;
   }
