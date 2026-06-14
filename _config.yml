@@ -11,7 +11,7 @@ site_theme               : "default" # Options: "default", "air", "sunrise", "mi
 title                    : "Joseph's Homepage"
 title_separator          : "-"
 name                     : &name "Joseph Chul-kyoo Jung"
-description              : &description "Assistant Professor of Economics at Mount Royal University"
+#description              : &description "Assistant Professor of Economics at Mount Royal University"
 url                      : "https://jckjung.github.io" 
 baseurl                  : "" 
 repository               : "jckjung/jckjung.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "jung2022photo_self_peggys_cove2.jpeg"
   name             : "Joseph Chul-kyoo Jung"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor of Economics"
+  #bio              : "Assistant Professor of Economics"
   employer         : "Mount Royal University"
   location         : "Calgary AB"
   #uri              : "https://jckjung.github.io"
@@ -61,7 +61,7 @@ author:
 
   # Social media
   linkedin         : "joseph-c-jung-a074b039/"
-  twitter          : "livinghope21"
+  #twitter          : "livinghope21"
 
 
 # Publication Category - The following the list of publication categories and their headings
