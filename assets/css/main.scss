@@ -1,6 +1,3 @@
----
----
-
 /*
  * This file controls what is imported from /_sass
  *
@@ -24,9 +21,6 @@ $text-color:       #202428 !important;
 $body-color:       #202428 !important;
 $link-color:       #0969da !important;
 
-// Condition flag for light mode layout styling
-$light-mode-active: true;
-
 @import 
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
 
@@ -40,8 +34,6 @@ $light-mode-active: true;
   $text-color:       null;
   $body-color:       null;
   $link-color:       null;
-  
-  $light-mode-active: false;
 }
 
 @import
@@ -73,73 +65,75 @@ $light-mode-active: true;
 ;
 
 // ==========================================
-// Custom Typography Scaling
+// Original Custom Typography Scaling
 // ==========================================
 body {
-  font-size: 16px;       // Standard \normalsize text size for body paragraphs
-  line-height: 1.6;      // Keeps paragraph spacing tight but readable
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-h1, .site-title { font-size: 28px !important; } // Scales down your main header name
-h2 { font-size: 22px !important; }              // Scales down section headers ("Research", "About")
-h3 { font-size: 18px !important; }              
+h1, .site-title {
+  font-size: 28px !important;
+}
 
-// ==========================================
-// FIXED: TARGETING ACTUAL PAPER LIST CODES
-// ==========================================
-// This explicitly targets the lists where your papers are housed on the main page.
-@if $light-mode-active == true {
-  ul li, .page li, main li {
-    // Forces the unlinked paper text details to be visible dark charcoal
-    color: #202428 !important;
+h2 {
+  font-size: 22px !important;
+}
 
-    // Forces your actual paper title links to be a highly distinct, deep slate blue
-    a, [style*="color: #2F81F7"], [style*="color: #4589ff"] {
-      color: #1a446c !important;
-      font-weight: 600; // Gives it structural weight so it pops as a title
-      
-      // Ensures italics (like "Chaebol") don't break the color choice
-      i, em, strong {
-        color: #1a446c !important;
-      }
-    }
-    
-    // Keeps your abstract buttons looking like clean, interactive actions
-    summary, .abstract-btn {
-      color: #0969da !important;
-    }
-  }
+h3 {
+  font-size: 18px !important;
 }
 
 // Top Navigation Bar Sizing
 .navbar, .nav-item, .masthead {
-  font-size: 16px !important;                    // Keeps top menu crisp and clean
+  font-size: 16px !important;
 }
 
-// Aggressive Left Sidebar Panel Sizing 
+// Aggressive Left Sidebar Panel Sizing
 .sidebar, .profile, [class*="sidebar"], [class*="profile"] {
-  font-size: 16px !important; 
+  font-size: 16px !important;
 
   .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"] {
-    font-size: 16px !important; 
-    @if $light-mode-active == true {
-      color: #202428 !important;
-    }
+    font-size: 16px !important;
   }
-  
+
   .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"] {
     font-size: 16px !important;
   }
 
   ul, li, a, span {
     font-size: 16px !important;
-    // Overrides the paper list color fix above so your sidebar details don't turn blue
-    @if $light-mode-active == true {
-      color: #202428 !important;
-    }
   }
 
   i, svg {
     font-size: 16px !important;
   }
+}
+
+// ==========================================
+// Publication / Paper Title Color Fix
+// Light mode only: keeps dark mode untouched
+// ==========================================
+@media (prefers-color-scheme: light) {
+
+  .archive__item-title,
+  .archive__item-title a,
+  .publication-title,
+  .publication-title a,
+  .pub-title,
+  .pub-title a,
+  .paper-title,
+  .paper-title a,
+  .page__content .archive__item-title,
+  .page__content .archive__item-title a {
+    color: #425466 !important;
+  }
+
+  .archive__item-title a:hover,
+  .publication-title a:hover,
+  .pub-title a:hover,
+  .paper-title a:hover {
+    color: #0969da !important;
+  }
+
 }
