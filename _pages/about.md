@@ -17,7 +17,6 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
   <!-- Paper 1 -->
   <li style="margin-bottom: 1.8rem;">
       <span style="font-weight: 600; color: #607a94;">Pro-competitive Reform Bundling and the Labour Share: Evidence from Korea's <i>Chaebol</i> Restructuring</span>
-      <br>
       <span style="font-style: italic; color: #8c8c8c;">Under Review</span> 
       <span style="color: #4589ff; margin-left: 4px;">
         [<a href="https://drive.google.com/file/d/1YIRyk5A1bg_SFWAjsHvmT9cqxZseyADp/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]•<details style="display: inline;"><summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
@@ -31,22 +30,18 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
     <!-- Paper 2 -->
   <li style="margin-bottom: 1.8rem;">
       <span style="font-weight: 600; color: #607a94;">The Impact of Clean Technology Innovation Support on Firm-level Energy-related R&amp;D Investment: Evidence from Canada</span>, <span style="color: #ffffff;">with Claudia De Fuentes, Hao Lu, and Joniada Milla</span>
-      <br>
       <span style="font-style: italic; color: #8c8c8c;">Revise &amp; Resubmit, <strong>Energy Economics</strong></span> 
       <span style="color: #4589ff; margin-left: 4px;">
         [<a href="https://drive.google.com/file/d/1USh9gmcXjOjMnI1JihnQqwLvcLFyokef/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]•<details style="display: inline;"><summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
           <p style="margin-top: 0.6rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.5; padding-left: 0.5rem;">
             This study contributes to identifying the impact of mission-oriented innovation policies on green energy innovation. We analyze the input additionality, behavioural additionality, and network additionality effects from mission-oriented policies under the clean technology innovation support from the government of Canada. We conduct the analysis using generalized synthetic control methods on a unique customized dataset that includes micro-level data at the enterprise level for firms located in Canada. Our findings reveal a significant contribution from mission-oriented policies that support directionality to address climate change. We observe an increased investment in R&D for clean energy. In addition, mission-oriented policies contribute to the accumulation of in-house capabilities. On the other hand, our analysis remains inconclusive regarding the positive effect on network additionality in terms of coordination of R&D efforts with external partner organizations. These results provide key insights for policy makers regarding a triple effect of mission-oriented policies to incentivize green energy innovation associated with directionality and capability building for new technologies.
-]
           </p>
         </details>
       </span>
     </li>
-
     <!-- Paper 3 -->
   <li style="margin-bottom: 1.8rem;">
       <span style="font-weight: 600; color: #607a94;">Selective Industrial Policy and Persistent Inequality: An Agent-Based Model of <i>Chaebol</i> Emergence and Hierarchical Capitalism in Korea</span>
-      <br>
       <span style="font-style: italic; color: #8c8c8c;">Under Review</span> 
       <span style="color: #4589ff; margin-left: 4px;">
         [<a href="https://drive.google.com/file/d/11-wVol7I7WdjljughTrqidmxiyaFKtPU/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]•<details style="display: inline;"><summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
@@ -66,7 +61,6 @@ inequality benchmark, consistent with the substantial variation across existing 
     <!-- Paper 4 -->
    <li style="margin-bottom: 1.8rem;">
       <span style="font-weight: 600; color: #607a94;">Long-term Treatment Effects of Government Support to Spur Innovation in the Atlantic Regions in Canada</span>, <span style="color: #ffffff;">with Claudia De Fuentes, Joniada Milla, and Hao Lu</span>
-      <br>
       <span style="font-style: italic; color: #8c8c8c;">Working Paper</span> 
       <span style="color: #4589ff; margin-left: 4px;">
         [<a href="https://drive.google.com/file/d/1llOPOSDGZj9bRLfcae6-q1sLp50pbkeQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]•<details style="display: inline;"><summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
@@ -85,7 +79,6 @@ performance.
     <!-- Paper 5 -->
   <li style="margin-bottom: 1.8rem;">
       <span style="font-weight: 600; color: #607a94;">Science and Technology Innovation Policy in Innovation Systems to Address Clean Transitions</span>, <span style="color: #ffffff;">with Claudia De Fuentes and Jo Chataway</span>
-      <br>
       <span style="font-style: italic; color: #8c8c8c;"><strong>Book Chapter, New Handbook on Innovation Systems and Developing Countries (2nd edition)</strong>(Under Review)</span> 
       <span style="color: #4589ff; margin-left: 4px;">
         [<a href="https://drive.google.com/file/d/1JK9wDpt9OPXzdltDjr0fPFuq5JvmhoJp/view" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]•<details style="display: inline;"><summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
@@ -98,7 +91,6 @@ performance.
     <!-- Paper 6 -->
   <li style="margin-bottom: 1.8rem;">
       <span style="font-weight: 600; color: #607a94;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's Heavy and Chemical Industry (HCI) Promotion (1973–1979)</span>
-      <br>
       <span style="font-style: italic; color: #8c8c8c;"><strong>Journal of Post Keynesian Economics, 2023</strong></span> 
       <span style="color: #4589ff; margin-left: 4px;">
         [<a href="https://drive.google.com/file/d/1DcvSQVrGgHYis6B2f2ZtVvhn-DIS7Jcm/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]•[<a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a>]•<details style="display: inline;"><summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
@@ -108,9 +100,7 @@ performance.
         </details>
       </span>
     </li>
-
   </ul>
-</div>
 
 <h2>Works in Progress</h2>
 
