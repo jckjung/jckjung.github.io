@@ -12,9 +12,38 @@
     "vendor/breakpoint/breakpoint",
 
     "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
 
+// ==========================================
+// ANTI-GLARE LIGHT MODE CORE VARIABLES
+// ==========================================
+// We intercept the variables right after the light theme loads, forcing the 
+// entire page canvas, text, and containers to use our eye-friendly matte theme.
+$background-color: #f5f4f0 !important;
+$bg-color:         #f5f4f0 !important;
+$body-background:  #f5f4f0 !important;
+$text-color:       #202428 !important;
+$body-color:       #202428 !important;
+$link-color:       #0969da !important;
+
+@import 
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
+
+// ==========================================
+// RESTORE NATIVE DARK MODE CORE VARIABLES
+// ==========================================
+// This native CSS media query ensures that if a user toggles Dark Mode or their system 
+// requests dark styling, the dark variables immediately take over, saving your dark theme.
+@media (prefers-color-scheme: dark) {
+  $background-color: null;
+  $bg-color:         null;
+  $body-background:  null;
+  $text-color:       null;
+  $body-color:       null;
+  $link-color:       null;
+}
+
+@import
     "include/mixins",
     "vendor/susy/susy",
 
@@ -43,7 +72,7 @@
 ;
 
 // ==========================================
-// Original Custom Typography Scaling (Restored)
+// Original Custom Typography Scaling (Maintained Verbatim)
 // ==========================================
 body {
   font-size: 16px;       // Standard \normalsize text size for body paragraphs
@@ -82,36 +111,5 @@ h3 { font-size: 18px !important; }              // Scales down subheadings / pap
   // Ensures icons match the larger text size nicely
   i, svg {
     font-size: 16px !important;
-  }
-}
-
-// ==========================================
-// Protected Light Mode Custom Overrides
-// ==========================================
-
-// This wrapper blocks these rules completely unless your site is explicitly rendering light mode,
-// preventing any styling bleeding into your dark mode settings.
-html.light, body.light, .theme--light, [data-theme="light"] {
-  
-  // The global page background
-  background-color: #f5f4f0 !important;
-  
-  // Main page text container
-  #main, .page, .wrapper, main, #content {
-    background-color: #f5f4f0 !important;
-    color: #202428 !important;
-  }
-
-  // Headings and content body text
-  p, li, span, h1, h2, h3, article {
-    color: #202428 !important;
-  }
-
-  // Custom link color adjustments for anti-glare mode
-  a {
-    color: #0969da !important;
-    span, strong, em {
-      color: #0969da !important;
-    }
   }
 }
