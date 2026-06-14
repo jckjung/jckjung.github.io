@@ -23,7 +23,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
       <span style="color: #4589ff; margin-left: 4px;">
         [<a href="https://drive.google.com/file/d/1YIRyk5A1bg_SFWAjsHvmT9cqxZseyADp/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]•<details style="display: inline;"><summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
           <p style="margin-top: 0.6rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.5; padding-left: 0.5rem;">
-            [Insert abstract text here for the Chaebol restructuring paper.]
+            [Structural reform episodes typically bundle multiple institutional changes, yet the distributional consequences remain poorly understood. This paper exploits South Korea's 1998 reform package---combining competition enforcement, labour market liberalization, and state-directed corporate restructuring---targeting its top 30 <i>chaebol</i> conglomerates. Using firm-level panel data (1991--2011) and generalized synthetic control, I find the reform bundle reduced treated firms' labour share by 7--8 percentage points, offset by rising profit shares. The decline is overwhelmingly within-firm, with near-unitary elasticities of substitution ruling out capital deepening. Competition reform's distributional effects depend critically on the institutional environment in which it is embedded.]
           </p>
         </details>
       </span>
@@ -56,19 +56,28 @@ inequality? We develop an evolutionary agent-based model motivated
 by Korea's Heavy and Chemical Industry drive (1973--1979) in which 
 preferential credit, strategic demand support, and capability-based 
 firm selection endogenously produce dominant business groups 
-(\textit{chaebols}). Inequality emerges through three reinforcing 
-channels: asymmetric credit creates financial hierarchy, Kaleckian 
-markup concentration redistributes income from wages to profits, 
-and segmented labour markets generate persistent wage dualism. 
-Simulations show that industrial promotion raises output by 
-approximately 40\% but increases the income Gini from 0.28 to 
-0.43 and reduces the wage share from 0.75 to 0.65. These effects 
-intensify after policy withdrawal as cumulative advantages become 
-self-reinforcing. Counterfactual experiments demonstrate that SME 
-linkage programs and labour safeguards substantially mitigate 
-inequality while preserving growth gains, highlighting the 
-importance of complementary institutions in developmental-state 
-industrialization.]
+(<i>chaebols</i>). Inequality emerges primarily through 
+hierarchical labour-market segmentation --- <i>chaebol</i> workers 
+receive wage premia and employment stability while SME workers 
+face wage erosion and higher turnover --- reinforced by Kaleckian 
+markup concentration that redistributes income from wages to 
+profits. Cumulative market-share advantages sustain \textit{chaebol} 
+dominance after policy withdrawal, but mechanism validation reveals 
+that concentration persistence and inequality persistence are driven 
+by partially distinct channels: removing cumulative causation 
+substantially reduces concentration while barely affecting income 
+inequality. Simulations show that industrial promotion raises output 
+by approximately 40\% but increases the income Gini from 0.28 to 
+0.43 and reduces the wage share from 0.75 to 0.65. Counterfactual 
+experiments demonstrate that SME linkage programs reduce inequality 
+to a Gini of 0.37 without reducing industrial concentration --- 
+producing concentrated but inclusive industrialization --- while 
+labour safeguards reduce inequality further to 0.34. The model is 
+validated against structural features of Korea's developmental 
+experience --- firm-size wage premia, labour-market segmentation, 
+and industrial concentration --- rather than a single aggregate 
+inequality benchmark, consistent with the substantial variation 
+across existing historical estimates.]
           </p>
         </details>
       </span>
@@ -82,7 +91,28 @@ industrialization.]
       <span style="color: #4589ff; margin-left: 4px;">
         [<a href="https://drive.google.com/file/d/1llOPOSDGZj9bRLfcae6-q1sLp50pbkeQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]•<details style="display: inline;"><summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
           <p style="margin-top: 0.6rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.5; padding-left: 0.5rem;">
-            [Insert abstract text here for the Atlantic Regions innovation paper.]
+            [The impact of innovation efforts has been recognized as an important economic and social
+process due to the outcomes that it generates, both in terms of the production and accumulation
+of knowledge throughout the innovation process and the innovative products that are generated
+to address specific problems. Governments throughout the world implement policies to support
+firms innovation decisions to innovate and to spur their innovation intensity, with the main
+objective to contribute to the social element of knowledge creation and innovation. Some of
+these forms of government support have a federal reach, while others have a regional focus and
+recognize the context specificities in the design of support programs. This paper aims to
+contribute to the analysis of the impact of a government support program that has a regional
+focus in Canada. We contribute to the understanding of three main elements: i) input
+additionality specific for the Atlantic Provinces in Canada; ii) output additionality, considering
+the main outcomes expected in the design of the program; and iii) the long-term effects of
+government support on specific outcomes differentiating by size and sector. Our results suggest
+that for input additionality, government support for R&D, contributes to firms increasing their
+R&D investment, and the effects are higher for small high tech firms. Relevant to output
+additionality, our results suggest that government support has a positive effect on some of the
+outcomes highlighted in the policy design, for example productivity and exports; while also
+contributing to longer-term effects that have wider impacts at the regional level, and are relevant
+in terms of higher salaries and retention of talent. This has important implications in terms of
+policy making, since government support contributes to alleviate the financial burden to engage
+in R&D and innovation activities, while at the same time contributing to improve firm and social
+performance.]
           </p>
         </details>
       </span>
