@@ -42,72 +42,69 @@
     "vendor/font-awesome/brands"
 ;
 
-// ==========================================
-// Custom Typography Scaling & Eye-Fatigue Overrides
-// ==========================================
-
+// ==========================================================================
+// Original Custom Typography Scaling (Maintained Verbatim)
+// ==========================================================================
 body {
   font-size: 16px;       // Standard \normalsize text size for body paragraphs
   line-height: 1.6;      // Keeps paragraph spacing tight but readable
-  
-  // High-visibility, anti-glare light mode foundation
-  background-color: #f5f4f0 !important; 
-  
-  // Sweeps through and forces all raw layout elements out of theme-default white
-  &, p, li, span, td, th, div, main, article, section {
-    color: #202428 !important;            
-  }
 }
 
-// Global Hyperlink & Icon Link Consistency
-a {
-  color: #0969da !important; 
-  text-decoration: none;
-  
-  // Forces nested text spans or icons inside buttons/links to follow blue branding
-  span, i, svg, strong, em {
-    color: #0969da !important;
-  }
-  
-  &:hover {
-    text-decoration: underline;
-  }
+h1, .site-title { font-size: 28px !important; } // Scales down your main header name
+h2 { font-size: 22px !important; }              // Scales down section headers ("Research", "About")
+h3 { font-size: 18px !important; }              // Scales down subheadings / paper titles
+
+// Top Navigation Bar Sizing
+.navbar, .nav-item, .masthead {
+  font-size: 16px !important;                    // Keeps top menu crisp and clean
 }
 
-// Typography Headers: Overriding theme defaults to deep charcoal
-h1, .site-title { 
-  font-size: 28px !important; 
-  color: #202428 !important;
-} 
-h2 { 
-  font-size: 22px !important; 
-  color: #202428 !important;
-}              
-h3 { 
-  font-size: 18px !important; 
-  color: #202428 !important;
-}              
+// Aggressive Left Sidebar Panel Sizing 
+// Targets the column explicitly and scales every piece of text inside it
+.sidebar, .profile, [class*="sidebar"], [class*="profile"] {
+  font-size: 16px !important; // Bumps up the base layout size noticeably
 
-// Top Navigation Bar Sizing & Visibility
-.navbar, .nav-item, .masthead, .site-nav {
-  font-size: 16px !important;                    
-  color: #202428 !important;
-  
-  a, span, div { 
-    color: #202428 !important; 
+  // Forces your name and title to scale up accordingly
+  .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"] {
+    font-size: 16px !important; 
   }
-}
-
-// Left Sidebar & Profile Panel Visibility Overrides
-// Targets the entire layout column and forces high contrast visibility over white text artifacts
-.sidebar, .profile, [class*="sidebar"], [class*="profile"], .author-profile {
-  font-size: 16px !important; 
-
-  // Aggressive cascading overrides for names, titles, bios, metadata, links, and text
-  .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"],
-  .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"],
-  ul, li, a, span, i, svg, .author-urls, .author-social {
+  
+  // Forces the title below your name to grow
+  .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"] {
     font-size: 16px !important;
-    color: #202428 !important; 
+  }
+
+  // Forces the contact/social list items (Calgary AB, Email, etc.) to grow
+  ul, li, a, span {
+    font-size: 16px !important;
+  }
+
+  // Ensures icons match the larger text size nicely
+  i, svg {
+    font-size: 16px !important;
+  }
+}
+
+// ==========================================================================
+// Isolated Anti-Glare Extensions (Safely Targeting Light Mode Layouts)
+// ==========================================================================
+
+// This scopes color fixes strictly to the main body layout wrapper during light mode
+// without touching your global headers, navigation rules, or dark mode config.
+.theme--light, [data-theme="light"], body:not(.theme--dark) {
+  
+  // Sets the main text container background to a soft, eye-friendly matte white
+  #main, .page, .wrapper, role[main], article {
+    background-color: #f5f4f0 !important;
+  }
+
+  // Ensures content text inside the main page container becomes a crisp charcoal
+  .page-content, .page__content, article p, article li, article span {
+    color: #202428 !important;
+  }
+
+  // Forces titles inside your page layout to remain fully visible against the matte gray
+  article h1, article h2, article h3, .page-title {
+    color: #202428 !important;
   }
 }
