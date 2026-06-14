@@ -3,9 +3,6 @@
 
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
- * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -17,8 +14,6 @@
 // ==========================================
 // ANTI-GLARE LIGHT MODE CORE VARIABLES
 // ==========================================
-// We intercept the variables right after the light theme loads, forcing the 
-// entire page canvas, text, and containers to use our eye-friendly matte theme.
 $background-color: #f5f4f0 !important;
 $bg-color:         #f5f4f0 !important;
 $body-background:  #f5f4f0 !important;
@@ -29,11 +24,6 @@ $link-color:       #0969da !important;
 @import 
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
 
-// ==========================================
-// RESTORE NATIVE DARK MODE CORE VARIABLES
-// ==========================================
-// This native CSS media query ensures that if a user toggles Dark Mode or their system 
-// requests dark styling, the dark variables immediately take over, saving your dark theme.
 @media (prefers-color-scheme: dark) {
   $background-color: null;
   $bg-color:         null;
@@ -72,56 +62,76 @@ $link-color:       #0969da !important;
 ;
 
 // ==========================================
-// Original Custom Typography Scaling (Maintained Verbatim)
+// Original Custom Typography Scaling
 // ==========================================
 body {
-  font-size: 16px;       // Standard \normalsize text size for body paragraphs
-  line-height: 1.6;      // Keeps paragraph spacing tight but readable
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-h1, .site-title { font-size: 28px !important; } // Scales down your main header name
-h2 { font-size: 22px !important; }              // Scales down section headers ("Research", "About")
-h3 { font-size: 18px !important; }              // Scales down subheadings / paper titles
+h1, .site-title { font-size: 28px !important; }
+h2 { font-size: 22px !important; }
+h3 { font-size: 18px !important; }
 
-// Top Navigation Bar Sizing
 .navbar, .nav-item, .masthead {
-  font-size: 16px !important;                    // Keeps top menu crisp and clean
+  font-size: 16px !important;
 }
 
-// Aggressive Left Sidebar Panel Sizing 
-// Targets the column explicitly and scales every piece of text inside it
 .sidebar, .profile, [class*="sidebar"], [class*="profile"] {
-  font-size: 16px !important; // Bumps up the base layout size noticeably
+  font-size: 16px !important;
 
-  // Forces your name and title to scale up accordingly
   .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"] {
     font-size: 16px !important; 
   }
   
-  // Forces the title below your name to grow
   .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"] {
     font-size: 16px !important;
   }
 
-  // Forces the contact/social list items (Calgary AB, Email, etc.) to grow
   ul, li, a, span {
     font-size: 16px !important;
   }
 
-  // Ensures icons match the larger text size nicely
   i, svg {
     font-size: 16px !important;
   }
 }
 
 // ==========================================
-// Paper title visibility fix — narrow version
+// ABOUT PAGE / PAPER TITLE VISIBILITY FIX
+// Stronger version for invisible publication titles
 // ==========================================
 @media (prefers-color-scheme: light) {
+
+  .page__content h3,
+  .page__content h3 a,
+  .page__content h2,
+  .page__content h2 a,
+  .page__content strong,
+  .page__content b,
+  .page__content li strong,
+  .page__content li b,
+  .page__content li > a:first-child,
+  .page__content p > a:first-child,
   .archive__item-title,
-  .archive__item-title a {
+  .archive__item-title a,
+  .publication-title,
+  .publication-title a,
+  .pub-title,
+  .pub-title a,
+  .paper-title,
+  .paper-title a {
     color: #425466 !important;
   }
+
+  .page__content h3 a:hover,
+  .page__content h2 a:hover,
+  .page__content li > a:first-child:hover,
+  .page__content p > a:first-child:hover,
+  .archive__item-title a:hover,
+  .publication-title a:hover,
+  .pub-title a:hover,
+  .paper-title a:hover {
+    color: #0969da !important;
+  }
 }
-
-
