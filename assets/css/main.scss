@@ -162,8 +162,6 @@ h3 { font-size: 18px !important; }
   margin-bottom: 1.5em;   // bump to 2em if you want even more space
 }
 
-// Center the icon list as a block, but keep the icons left-aligned
-// inside it so they line up vertically (icons won't go ragged)
 .author__urls-wrapper {
   text-align: center;
   float: none;
@@ -174,6 +172,13 @@ h3 { font-size: 18px !important; }
   display: inline-block;
   text-align: left;
   margin-top: 0;
+  position: relative !important;   // <- override MM's position: absolute
+  z-index: 2;                      // <- keep links above the image/content
+}
+
+.author__urls a {
+  position: relative;
+  z-index: 2;
 }
 
 // ==========================================
