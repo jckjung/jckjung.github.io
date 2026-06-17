@@ -137,16 +137,43 @@ h3 { font-size: 18px !important; }
 }
 
 // ==========================================
-// Left Sidebar Profile Picture Customization
-// Larger rectangular profile photo
+// Center author sidebar: avatar, name, icons
 // ==========================================
 
+// Center everything in the sidebar content column
+.author__avatar,
+.author__content {
+  text-align: center;
+}
+
+// Larger profile picture, now horizontally centered
 .author__avatar img {
   width: 180px !important;
   max-width: 180px !important;
-  height: 240px !important;
+  height: 270px !important;
   object-fit: cover !important;
-  border-radius: 8px !important;   // rectangle with slightly rounded corners
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+// Center the name + add breathing room before the MRU line
+.author__name {
+  text-align: center;
+  margin-bottom: 1.5em;   // bump to 2em if you want even more space
+}
+
+// Center the icon list as a block, but keep the icons left-aligned
+// inside it so they line up vertically (icons won't go ragged)
+.author__urls-wrapper {
+  text-align: center;
+  float: none;
+  width: 100%;
+}
+
+.author__urls {
+  display: inline-block;
+  text-align: left;
+  margin-top: 0;
 }
 
 // ==========================================
@@ -161,16 +188,7 @@ h3 { font-size: 18px !important; }
 .page__content ul {
   margin-bottom: 0.8rem !important;
 }
-// ==========================================
-// Larger Profile Picture
-// ==========================================
 
-.author__avatar img {
-  width: 180px !important;
-  max-width: 180px !important;
-  height: 270px !important;
-  object-fit: cover !important;
-}
 // ==========================================
 // Talks Page Sidebar Image
 // ==========================================
