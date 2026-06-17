@@ -136,17 +136,7 @@ h3 { font-size: 18px !important; }
   }
 }
 
-// ==========================================
-// Center author sidebar: avatar, name, icons
-// ==========================================
-
-// Center everything in the sidebar content column
-.author__avatar,
-.author__content {
-  text-align: center;
-}
-
-// Larger profile picture, now horizontally centered
+// ===== Author sidebar: center avatar, name, icons =====
 .author__avatar img {
   width: 180px !important;
   max-width: 180px !important;
@@ -154,31 +144,25 @@ h3 { font-size: 18px !important; }
   object-fit: cover !important;
   display: block !important;
   margin: 0 auto !important;
+  border-radius: 12px !important;
 }
 
-// Center the name + add breathing room before the MRU line
+.author__content {
+  text-align: center;
+}
+
 .author__name {
   text-align: center;
-  margin-bottom: 1.5em;   // bump to 2em if you want even more space
+  margin-bottom: 1.5em;
 }
 
 .author__urls-wrapper {
   text-align: center;
-  float: none;
-  width: 100%;
 }
 
 .author__urls {
   display: inline-block;
   text-align: left;
-  margin-top: 0;
-  position: relative !important;   // <- override MM's position: absolute
-  z-index: 2;                      // <- keep links above the image/content
-}
-
-.author__urls a {
-  position: relative;
-  z-index: 2;
 }
 
 // ==========================================
