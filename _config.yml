@@ -33,7 +33,7 @@ author:
   links:
     - label: "Mount Royal University"
       icon: "fas fa-fw fa-building-columns"
-      url: "https://www.mtroyal.ca/"
+      url: "https://www.mtroyal.ca"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:jjung@mtroyal.ca"
