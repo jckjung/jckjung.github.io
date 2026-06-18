@@ -1,19 +1,11 @@
 ---
 ---
 
-/*
- * This file controls what is imported from /_sass
- */
-
 @import
-    "vendor/breakpoint/breakpoint",
+  "vendor/breakpoint/breakpoint",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
-
-// ==========================================
-// ANTI-GLARE LIGHT MODE CORE VARIABLES
-// ==========================================
 $background-color: #f5f4f0 !important;
 $bg-color:         #f5f4f0 !important;
 $body-background:  #f5f4f0 !important;
@@ -21,49 +13,39 @@ $text-color:       #202428 !important;
 $body-color:       #202428 !important;
 $link-color:       #0969da !important;
 
-@import 
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
+@import "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
 
 @media (prefers-color-scheme: dark) {
   $background-color: null;
-  $bg-color:         null;
-  $body-background:  null;
-  $text-color:       null;
-  $body-color:       null;
-  $link-color:       null;
+  $bg-color: null;
+  $body-background: null;
+  $text-color: null;
+  $body-color: null;
+  $link-color: null;
 }
 
 @import
-    "include/mixins",
-    "vendor/susy/susy",
+  "include/mixins",
+  "vendor/susy/susy",
+  "layout/reset",
+  "layout/base",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
+  "layout/forms",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands";
 
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
-
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
-
-// ==========================================
-// Original Custom Typography Scaling
-// ==========================================
 body {
   font-size: 16px;
   line-height: 1.6;
@@ -77,32 +59,20 @@ h3 { font-size: 18px !important; }
   font-size: 16px !important;
 }
 
+/* Sidebar typography */
 .sidebar, .profile, [class*="sidebar"], [class*="profile"] {
   font-size: 16px !important;
 
-  .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"] {
-    font-size: 16px !important; 
-  }
-  
-  .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"] {
-    font-size: 16px !important;
-  }
-
-  ul, li, a, span {
-    font-size: 16px !important;
-  }
-
+  .sidebar-name, .profile-name, h3, h4, .author-name, [class*="name"],
+  .sidebar-title, .profile-title, .author-bio, p, [class*="bio"], [class*="title"],
+  ul, li, a, span,
   i, svg {
     font-size: 16px !important;
   }
 }
 
-// ==========================================
-// ABOUT PAGE / PAPER TITLE VISIBILITY FIX
-// Stronger version for invisible publication titles
-// ==========================================
+/* Light-mode title/link visibility */
 @media (prefers-color-scheme: light) {
-
   .page__content h3,
   .page__content h3 a,
   .page__content h2,
@@ -111,8 +81,6 @@ h3 { font-size: 18px !important; }
   .page__content b,
   .page__content li strong,
   .page__content li b,
-  .page__content li > a:first-child,
-  .page__content p > a:first-child,
   .archive__item-title,
   .archive__item-title a,
   .publication-title,
@@ -126,8 +94,6 @@ h3 { font-size: 18px !important; }
 
   .page__content h3 a:hover,
   .page__content h2 a:hover,
-  .page__content li > a:first-child:hover,
-  .page__content p > a:first-child:hover,
   .archive__item-title a:hover,
   .publication-title a:hover,
   .pub-title a:hover,
@@ -136,7 +102,14 @@ h3 { font-size: 18px !important; }
   }
 }
 
-// ===== Author sidebar: center avatar, name, icons =====
+/* Author sidebar */
+.author__avatar {
+  padding: 0 !important;
+  margin: 0 auto !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 .author__avatar img {
   width: 180px !important;
   max-width: 180px !important;
@@ -144,33 +117,47 @@ h3 { font-size: 18px !important; }
   object-fit: cover !important;
   display: block !important;
   margin: 0 auto !important;
+  border: none !important;
+  box-shadow: none !important;
   border-radius: 12px !important;
 }
 
-.author__content {
-  text-align: center;
+.author__content,
+.author__name,
+.author__urls-wrapper {
+  text-align: center !important;
 }
 
 .author__name {
-  text-align: center;
   margin-bottom: 1.5em;
-}
-
-.author__urls-wrapper {
-  text-align: center;
 }
 
 .author__urls {
   display: inline-block !important;
   text-align: left !important;
   position: relative !important;
-  z-index: 9999 !important;
+  z-index: 10 !important;
 }
 
-// ==========================================
-// Research Page Publication Spacing
-// ==========================================
+.author__urls li {
+  position: relative !important;
+  z-index: 10 !important;
+}
 
+.author__urls a {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.35rem;
+  position: relative !important;
+  z-index: 10 !important;
+  pointer-events: auto !important;
+}
+
+.author__urls a:hover {
+  text-decoration: underline !important;
+}
+
+/* Publication spacing */
 .page__content ul li {
   margin-bottom: 0.4rem !important;
   line-height: 1.3 !important;
@@ -180,10 +167,7 @@ h3 { font-size: 18px !important; }
   margin-bottom: 0.8rem !important;
 }
 
-// ==========================================
-// Talks Page Sidebar Image
-// ==========================================
-
+/* Talks page image */
 .talk-sidebar-image {
   float: left;
   width: 220px;
@@ -195,58 +179,4 @@ h3 { font-size: 18px !important; }
   width: 100%;
   height: auto;
   border-radius: 8px;
-}
-
-// ==========================================
-// Remove profile image frame/border
-// ==========================================
-
-.author__avatar {
-    padding: 0 !important;
-    margin: 0 auto !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-
-.author__avatar img {
-    border: none !important;
-    box-shadow: none !important;
-}
-
-/* Fix author sidebar icon links */
-.author__urls-wrapper,
-.author__urls,
-.author__urls li,
-.author__urls a {
-  position: relative !important;
-  z-index: 20 !important;
-  pointer-events: auto !important;
-}
-
-.author__urls a {
-  display: inline-flex !important;
-  align-items: center !important;
-  gap: 0.35rem;
-}
-/* Force author profile links to be clickable */
-.author__urls-wrapper {
-  position: relative !important;
-  z-index: 9999 !important;
-}
-
-.author__urls {
-  position: relative !important;
-  z-index: 9999 !important;
-  pointer-events: auto !important;
-}
-
-.author__urls li,
-.author__urls li a {
-  position: relative !important;
-  z-index: 9999 !important;
-  pointer-events: auto !important;
-}
-
-.author__urls a:hover {
-  text-decoration: underline !important;
 }
