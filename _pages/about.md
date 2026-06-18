@@ -112,7 +112,7 @@ in R&D and innovation activities, while at the same time contributing to improve
       [<a href="https://drive.google.com/file/d/1JK9wDpt9OPXzdltDjr0fPFuq5JvmhoJp/view" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
     </span>
   </li>
-
+</ul>
 
 <h2>Works in Progress</h2>
 <ul style="list-style-type: none; padding-left: 0;">
