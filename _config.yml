@@ -34,9 +34,11 @@ author:
     - label: "Mount Royal University"
       icon: "fas fa-fw fa-university"
       url: "https://www.dal.ca"
+      
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:jjung@mtroyal.ca"
+      
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jckjung"
