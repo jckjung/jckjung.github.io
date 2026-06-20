@@ -5,5 +5,5 @@ layout: single
 
 <script>
 window.open('/files/Jung2026CV0703.pdf', '_blank');
-window.location.href='/';
+window.location.replace('/');
 </script>
