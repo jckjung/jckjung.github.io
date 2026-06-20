@@ -183,10 +183,7 @@ h3 { font-size: 18px !important; }
 
 /* ============================================
    Author sidebar (left panel)
-   Replace ALL earlier custom author rules with this.
    ============================================ */
-
-/* --- Avatar: larger, centered, rounded rectangle --- */
 .author__avatar {
   text-align: center;
 }
@@ -197,29 +194,26 @@ h3 { font-size: 18px !important; }
   object-fit: cover !important;
   display: block !important;
   margin: 0 auto !important;
-  border-radius: 12px !important;   /* rounded rectangle; use 0 for sharp corners */
+  border-radius: 12px !important;
 }
-
-/* --- Name: centered, with space before the MRU line --- */
 .author__content {
   text-align: center;
+  margin-top: 1.5em;        /* item 3: gap between image and name */
 }
 .author__name {
-  margin-bottom: 1.25em;            /* gap between name and Mount Royal U line */
+  margin-bottom: 2em;       /* item 3: gap between name and icons */
 }
-
-/* --- Icon list: centered block, left-aligned rows, CLICKABLE --- */
 .author__urls-wrapper {
   text-align: center;
 }
 .author__urls-wrapper .btn {
-  display: none;                    /* hide the "Follow" button */
+  display: none;
 }
 .author__urls,
 .author__urls.social-icons {
   display: inline-block !important;
-  position: static !important;      /* <-- pulls list out of popover/absolute mode: fixes dead links */
-  text-align: left;                 /* keep icons left-aligned so they line up */
+  position: static !important;
+  text-align: left;
   margin: 0 auto !important;
   padding: 0 !important;
   border: 0 !important;
@@ -227,8 +221,13 @@ h3 { font-size: 18px !important; }
   box-shadow: none !important;
 }
 .author__urls::before {
-  display: none !important;         /* remove the popover arrow if it shows */
+  display: none !important;
 }
 .author__urls li {
-  display: block;                   /* one item per line (overrides social-icons row layout) */
+  display: block;
+  margin-bottom: 0.2rem;    /* item 4: tighter spacing; lower = tighter */
+  line-height: 1.25;
+}
+.author__urls li a {
+  margin-bottom: 0 !important;
 }
