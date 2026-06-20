@@ -90,7 +90,7 @@ in R&D and innovation activities, while at the same time contributing to improve
   <span style="font-weight: 600; color: #66819c;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's HCI Promotion, 1973–1979</span>
   <span style="font-style: italic; color: #8c8c8c;"> — Journal of Post Keynesian Economics, 2023</span>
   <span style="color: #4589ff; margin-left: 4px;">
-    [<a href="https://drive.google.com/file/d/1DcvSQVrGgHYis6B2f2ZtVvhn-DIS7Jcm/view?usp=sharing](https://github.com/jckjung/jckjung.github.io/edit/master/_pages/about.md#:~:text=bibtex1.bib-,jung2023jpke_ch1,-.pdf" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
+    [<a href="files/jung2023jpke_ch1.pdf" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
      · 
     <details style="display: inline;">
       <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
