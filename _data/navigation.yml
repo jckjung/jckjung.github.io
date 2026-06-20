@@ -16,5 +16,4 @@ main:
     url: /teaching/
 
   - title: "CV"
-    url: /files/Jung2026CV0703.pdf
-    target: _blank
+    url: /files/Jung2026CV0703.pdf" target="_blank
