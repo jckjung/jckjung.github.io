@@ -182,33 +182,38 @@ h3 { font-size: 18px !important; }
 }
 
 /* ============================================
-   Author sidebar (left panel)
+   Author sidebar (left panel) — responsive
    ============================================ */
-.author__avatar {
+
+/* Always stack avatar → name → icons in one centered column,
+   at every window width (prevents the broken narrow-screen layout) */
+.author__avatar,
+.author__content,
+.author__urls-wrapper {
+  display: block !important;
+  width: 100% !important;
   text-align: center;
 }
+
+/* Responsive avatar: caps at 180px when wide, shrinks to fit when
+   narrow, always keeps the 2:3 rounded-rectangle shape */
 .author__avatar img {
   width: 180px !important;
-  max-width: 180px !important;
-  height: 270px !important;
+  max-width: 100% !important;     /* never overflow a narrow sidebar */
+  height: auto !important;
+  aspect-ratio: 2 / 3 !important;
   object-fit: cover !important;
   display: block !important;
   margin: 0 auto !important;
   border-radius: 12px !important;
 }
-.author__content {
-  text-align: center;
-  margin-top: 1.5em;        /* item 3: gap between image and name */
-}
-.author__name {
-  margin-bottom: 2em;       /* item 3: gap between name and icons */
-}
-.author__urls-wrapper {
-  text-align: center;
-}
-.author__urls-wrapper .btn {
-  display: none;
-}
+
+/* Spacing */
+.author__content { margin-top: 1.5em; }
+.author__name    { margin-bottom: 2em; }
+
+/* Icon list: centered, clickable, no overflow */
+.author__urls-wrapper .btn { display: none; }
 .author__urls,
 .author__urls.social-icons {
   display: inline-block !important;
@@ -219,15 +224,13 @@ h3 { font-size: 18px !important; }
   border: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
+  max-width: 100%;
 }
-.author__urls::before {
-  display: none !important;
-}
+.author__urls::before { display: none !important; }
 .author__urls li {
   display: block;
-  margin-bottom: 0.2rem;    /* item 4: tighter spacing; lower = tighter */
+  margin-bottom: 0.2rem;
   line-height: 1.25;
+  overflow-wrap: break-word;       /* long links wrap instead of overflowing */
 }
-.author__urls li a {
-  margin-bottom: 0 !important;
-}
+.author__urls li a { margin-bottom: 0 !important; }
