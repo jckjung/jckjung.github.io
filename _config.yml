@@ -49,7 +49,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=S_c8fkoAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0001-7042-5707"
+  orcid            : #"https://orcid.org/my-orcid?orcid=0000-0001-7042-5707"
   semantic         : # URL
   ssrn             : # URL
   researchgate     : # URL
@@ -65,7 +65,7 @@ author:
 
 
   # Social media
-  linkedin         : "joseph-ck-jung-a074b039/"
+  linkedin         : #"joseph-ck-jung-a074b039/"
   #twitter          : "livinghope21"
 
 
