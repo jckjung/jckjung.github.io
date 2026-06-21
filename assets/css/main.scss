@@ -234,3 +234,59 @@ h3 { font-size: 18px !important; }
   overflow-wrap: break-word;       /* long links wrap instead of overflowing */
 }
 .author__urls li a { margin-bottom: 0 !important; }
+/* Custom Responsive Rules for Profile Sidebar */
+
+/* For Smaller Web Pages and Tablets (Screens under 1024px) */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 25% !important; /* Dynamically narrows the sidebar container */
+  }
+  .author__avatar img {
+    max-width: 85% !important; /* Scales down profile photo smoothly */
+    height: auto !important;
+  }
+  .author__name {
+    font-size: 1.15rem !important; /* Minimizes text clipping */
+  }
+}
+
+/* For Cell Phones (Screens under 768px) */
+@media (max-width: 768px) {
+  /* Forces the sidebar to span horizontally at the top, freeing up full-width space for your papers */
+  .sidebar {
+    width: 100% !important;
+    float: none !important;
+    position: relative !important;
+    margin-bottom: 2rem !important;
+    padding: 10px !important;
+    text-align: center !important;
+  }
+
+  /* Centers and scales down the avatar image into a neat mobile banner icon */
+  .author__avatar {
+    display: inline-block !important;
+    width: 100px !important;
+    height: 100px !important;
+    margin: 0 auto 1rem auto !important;
+  }
+
+  .author__avatar img {
+    border-radius: 50% !important; /* Transforms into a clean profile circle on phones */
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Arranges contact icons horizontally or in tight clean columns on mobile views */
+  .author__urls-wrapper ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 10px 15px !important;
+    padding-left: 0 !important;
+  }
+
+  .author__urls-wrapper li {
+    margin-bottom: 0 !important;
+    font-size: 0.9rem !important;
+  }
+}
