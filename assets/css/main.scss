@@ -1,6 +1,3 @@
----
----
-
 @import
   "vendor/breakpoint/breakpoint",
   "themes",
@@ -102,7 +99,7 @@ h3 { font-size: 18px !important; }
   }
 }
 
-/* Author sidebar */
+/* Author sidebar positioning structures */
 .author__avatar {
   padding: 0 !important;
   margin: 0 auto !important;
@@ -169,12 +166,7 @@ h3 { font-size: 18px !important; }
   border-radius: 8px;
 }
 
-/* ============================================
-   Author sidebar (left panel) — responsive
-   ============================================ */
-
-/* Always stack avatar → name → icons in one centered column,
-   at every window width (prevents the broken narrow-screen layout) */
+/* Always stack avatar elements in structured alignment */
 .author__avatar,
 .author__content,
 .author__urls-wrapper {
@@ -183,24 +175,11 @@ h3 { font-size: 18px !important; }
   text-align: center;
 }
 
-/* Responsive avatar: caps at 180px when wide, shrinks to fit when
-   narrow, always keeps the 2:3 rounded-rectangle shape */
-.author__avatar img {
-  width: 180px !important;
-  max-width: 100% !important;     /* never overflow a narrow sidebar */
-  height: auto !important;
-  aspect-ratio: 2 / 3 !important;
-  object-fit: cover !important;
-  display: block !important;
-  margin: 0 auto !important;
-  border-radius: 12px !important;
-}
-
-/* Spacing */
+/* Spacing layout frames */
 .author__content { margin-top: 1.5em; }
 .author__name    { margin-bottom: 2em; }
 
-/* Icon list: centered, clickable, no overflow */
+/* Clean icon configuration rules */
 .author__urls,
 .author__urls.social-icons {
   display: inline-block !important;
@@ -213,35 +192,98 @@ h3 { font-size: 18px !important; }
   box-shadow: none !important;
   max-width: 100%;
 }
-.author__urls::before { display: none !important; }
+
 .author__urls li {
   display: block;
   margin-bottom: 0.2rem;
   line-height: 1.25;
-  overflow-wrap: break-word;       /* long links wrap instead of overflowing */
+  overflow-wrap: break-word;
 }
+
 .author__urls li a { margin-bottom: 0 !important; }
-/* Custom Responsive Rules for Profile Sidebar */
 
-/* For Smaller Web Pages and Tablets (Screens under 1024px) */
-@media (max-width: 1024px) {
-  .sidebar {
-    width: 25% !important; /* Dynamically narrows the sidebar container */
+/* Force the actual list of icons to stay completely visible and clear */
+.author__urls {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* ==========================================================================
+   Custom Fluid Responsive Layout & Structural Adjustment Rules
+   ========================================================================== */
+
+/* 1. COMPLETELY ELIMINATE THE PERSISTENT WHITE ARROW SYSTEM */
+.author__urls-wrapper::before,
+.author__urls-wrapper::after,
+.author__urls::before,
+.author__urls::after,
+.author__urls-wrapper button,
+.author__urls-wrapper .btn,
+.author__urls-wrapper .btn--inverse {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  content: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
+/* 2. LAPTOP CHROME WIDTH REDUCTION SYSTEM
+   Freezes the left sidebar width permanently on desktop windows; 
+   forces the main content section to handle all fluid adjustments */
+@media (min-width: 769px) {
+  #main, .initial-content, div[class*="initial-content"] {
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    gap: 40px !important;
   }
+
+  .sidebar, [class*="sidebar"] {
+    width: 220px !important; 
+    min-width: 220px !important;
+    max-width: 220px !important;
+    flex: 0 0 220px !important;
+    float: none !important;
+  }
+
+  .page, .page__content, [class*="page__content"] {
+    flex: 1 1 auto !important;
+    width: auto !important;
+    max-width: 100% !important;
+    float: none !important;
+  }
+
   .author__avatar img {
-    max-width: 85% !important; /* Scales down profile photo smoothly */
+    width: 180px !important;
+    max-width: 100% !important;
     height: auto !important;
-  }
-  .author__name {
-    font-size: 1.15rem !important; /* Minimizes text clipping */
+    aspect-ratio: 2 / 3 !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 0 auto !important;
+    border-radius: 12px !important;
   }
 }
 
-/* For Cell Phones (Screens under 768px) */
+/* 3. MOBILE THRESHOLD BREAKPOINT (768px and below)
+   Gracefully drops components into a stacked column profile layout on phones */
 @media (max-width: 768px) {
-  /* Forces the sidebar to span horizontally at the top, freeing up full-width space for your papers */
-  .sidebar {
+  #main, .initial-content {
+    display: block !important;
+  }
+
+  .sidebar, [class*="sidebar"] {
     width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
     float: none !important;
     position: relative !important;
     margin-bottom: 2rem !important;
@@ -249,37 +291,33 @@ h3 { font-size: 18px !important; }
     text-align: center !important;
   }
 
-  /* Centers and scales down the avatar image frame into a neat mobile box */
   .author__avatar {
     display: block !important;
     width: 100% !important;
     margin: 0 auto 1rem auto !important;
   }
 
-  /* KEEPS THE ROUNDED RECTANGLE AS A PERFECT SQUARE BOX FRAME ON PHONES */
+  /* Keeps the profile photo safe from distortion and maintains a perfect 2:3 rounded rectangle */
   .author__avatar img {
-    width: 130px !important; 
+    width: 140px !important; 
     height: auto !important;
-    object-fit: cover !important;  /* Prevents horizontal squeezing/distortion */
-    border-radius: 12px !important; /* Forces it to stay a professional rounded rectangle */
-    max-width: 100% !important;
+    aspect-ratio: 2 / 3 !important;
+    object-fit: cover !important;
+    border-radius: 12px !important;
     display: block !important;
     margin: 0 auto !important;
   }
 
-  /* Arranges contact icons horizontally or in tight clean columns on mobile views */
- .author__urls-wrapper ul {
-  display: block !important;
-}
-  .author__urls-wrapper li {
-    margin-bottom: 0 !important;
-    font-size: 0.9rem !important;
+  .author__urls-wrapper ul,
+  .author__urls {
+    display: inline-block !important;
+    text-align: left !important;
+    margin: 0 auto !important;
+    padding-left: 0 !important;
   }
-}
 
-/* Force the actual list of icons to stay completely visible and clear */
-.author__urls {
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+  .author__urls-wrapper li {
+    margin-bottom: 0.3rem !important;
+    font-size: 0.95rem !important;
+  }
 }
