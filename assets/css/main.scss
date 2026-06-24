@@ -305,3 +305,30 @@ h3 { font-size: 18px !important; }
   opacity: 0 !important;
   content: none !important;
 }
+
+/* Completely eliminate the mobile toggle wrapper and its arrow hook */
+.author__urls-wrapper,
+.author__urls-wrapper::before,
+.author__urls-wrapper::after,
+.author__urls-wrapper button,
+.author__urls-wrapper .btn,
+.author__urls-wrapper.open,
+.author__urls-wrapper .btn--inverse {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  content: none !important;
+  border: none !important;
+  background: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Force the actual list of icons to stay completely visible and clear */
+.author__urls {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
