@@ -102,24 +102,12 @@ h3 { font-size: 18px !important; }
   }
 }
 
-/* Author sidebar */
+/* Author sidebar Structure resets */
 .author__avatar {
   padding: 0 !important;
   margin: 0 auto !important;
   border: none !important;
   box-shadow: none !important;
-}
-
-.author__avatar img {
-  width: 180px !important;
-  max-width: 180px !important;
-  height: 270px !important;
-  object-fit: cover !important;
-  display: block !important;
-  margin: 0 auto !important;
-  border: none !important;
-  box-shadow: none !important;
-  border-radius: 12px !important;
 }
 
 .author__content,
@@ -185,8 +173,6 @@ h3 { font-size: 18px !important; }
    Author sidebar (left panel) — responsive
    ============================================ */
 
-/* Always stack avatar → name → icons in one centered column,
-   at every window width (prevents the broken narrow-screen layout) */
 .author__avatar,
 .author__content,
 .author__urls-wrapper {
@@ -195,11 +181,10 @@ h3 { font-size: 18px !important; }
   text-align: center;
 }
 
-/* Responsive avatar: caps at 180px when wide, shrinks to fit when
-   narrow, always keeps the 2:3 rounded-rectangle shape */
+/* Base Desktop Avatar layout rules */
 .author__avatar img {
   width: 180px !important;
-  max-width: 100% !important;     /* never overflow a narrow sidebar */
+  max-width: 100% !important;
   height: auto !important;
   aspect-ratio: 2 / 3 !important;
   object-fit: cover !important;
@@ -208,12 +193,12 @@ h3 { font-size: 18px !important; }
   border-radius: 12px !important;
 }
 
-/* Spacing */
+/* Spacing layout alignment values */
 .author__content { margin-top: 1.5em; }
 .author__name    { margin-bottom: 2em; }
 
-/* Icon list: centered, clickable, no overflow */
-.author__urls-wrapper .btn { display: none; }
+/* Icon list layout properties */
+.author__urls-wrapper .btn { display: none !important; }
 .author__urls,
 .author__urls.social-icons {
   display: inline-block !important;
@@ -226,33 +211,35 @@ h3 { font-size: 18px !important; }
   box-shadow: none !important;
   max-width: 100%;
 }
+
 .author__urls::before { display: none !important; }
+
 .author__urls li {
   display: block;
   margin-bottom: 0.2rem;
   line-height: 1.25;
-  overflow-wrap: break-word;       /* long links wrap instead of overflowing */
+  overflow-wrap: break-word;
 }
 .author__urls li a { margin-bottom: 0 !important; }
+
 /* Custom Responsive Rules for Profile Sidebar */
 
 /* For Smaller Web Pages and Tablets (Screens under 1024px) */
 @media (max-width: 1024px) {
   .sidebar {
-    width: 25% !important; /* Dynamically narrows the sidebar container */
+    width: 25% !important;
   }
   .author__avatar img {
-    max-width: 85% !important; /* Scales down profile photo smoothly */
+    max-width: 85% !important;
     height: auto !important;
   }
   .author__name {
-    font-size: 1.15rem !important; /* Minimizes text clipping */
+    font-size: 1.15rem !important;
   }
 }
 
-/* For Cell Phones (Screens under 768px) */
+/* For Cell Phones and ultra-narrow laptop views (Screens under 768px) */
 @media (max-width: 768px) {
-  /* Forces the sidebar to span horizontally at the top, freeing up full-width space for your papers */
   .sidebar {
     width: 100% !important;
     float: none !important;
@@ -262,25 +249,23 @@ h3 { font-size: 18px !important; }
     text-align: center !important;
   }
 
-  /* Centers and scales down the avatar image frame into a neat mobile box */
   .author__avatar {
     display: block !important;
     width: 100% !important;
     margin: 0 auto 1rem auto !important;
   }
 
-  /* KEEPS THE ROUNDED RECTANGLE AS A PERFECT SQUARE BOX FRAME ON PHONES */
+  /* LOCKS A CLEAN RECTANGULAR BOX PROPORTION AND PREVENTS OVAL DISTORTIONS ON IPHONE */
   .author__avatar img {
     width: 130px !important; 
-    height: auto !important;
-    object-fit: cover !important;  /* Prevents horizontal squeezing/distortion */
-    border-radius: 12px !important; /* Forces it to stay a professional rounded rectangle */
+    height: 195px !important; /* Preserves a perfect 2:3 ratio dynamically */
+    object-fit: cover !important;
+    border-radius: 12px !important;
     max-width: 100% !important;
     display: block !important;
     margin: 0 auto !important;
   }
 
-  /* Arranges contact icons horizontally or in tight clean columns on mobile views */
   .author__urls-wrapper ul {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -295,9 +280,20 @@ h3 { font-size: 18px !important; }
   }
 }
 
-/* Force the actual list of icons to stay completely visible and clear */
+/* Force baseline display and drop native menu arrow toggles completely */
 .author__urls {
   display: inline-block !important;
   visibility: visible !important;
   opacity: 1 !important;
-} can you double check if this is now perfect?
+}
+
+.author__urls-wrapper::before,
+.author__urls-wrapper::after,
+.author__urls-wrapper button,
+.author__urls-wrapper .btn,
+.author__urls-wrapper .btn--inverse {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  content: none !important;
+}
