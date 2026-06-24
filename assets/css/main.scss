@@ -262,18 +262,22 @@ h3 { font-size: 18px !important; }
     text-align: center !important;
   }
 
-  /* Centers and scales down the avatar image into a neat mobile banner icon */
+  /* Centers and scales down the avatar image frame into a neat mobile box */
   .author__avatar {
-    display: inline-block !important;
-    width: 100px !important;
-    height: 100px !important;
+    display: block !important;
+    width: 100% !important;
     margin: 0 auto 1rem auto !important;
   }
 
+  /* KEEPS THE ROUNDED RECTANGLE AS A PERFECT SQUARE BOX FRAME ON PHONES */
   .author__avatar img {
-    border-radius: 50% !important; /* Transforms into a clean profile circle on phones */
-    width: 100% !important;
+    width: 130px !important; 
+    height: 130px !important;
+    object-fit: cover !important;  /* Prevents horizontal squeezing/distortion */
+    border-radius: 12px !important; /* Forces it to stay a professional rounded rectangle */
     max-width: 100% !important;
+    display: block !important;
+    margin: 0 auto !important;
   }
 
   /* Arranges contact icons horizontally or in tight clean columns on mobile views */
