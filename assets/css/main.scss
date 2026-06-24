@@ -294,3 +294,14 @@ h3 { font-size: 18px !important; }
     font-size: 0.9rem !important;
   }
 }
+
+/* Force hide the follow button toggle arrow and wrapper elements */
+.author__urls-wrapper button,
+.author__urls-wrapper .btn,
+.author__urls-wrapper::after,
+.author__urls::before {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  content: none !important;
+}
