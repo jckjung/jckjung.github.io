@@ -53,7 +53,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
     <span style="font-weight: 600; color: #66819c;">When Does Collateralized Borrowing Become Contractionary? -- An Endogenous Debt Threshold</span>
     <span style="font-style: italic; color: #8c8c8c;"> — Under Review</span>
     <span style="color: #4589ff; margin-left: 4px;">
-      [<a href="{{ '/assets/files/jung2026wp_sced.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
+      [<a href="{{ '/files/jung2026wp_sced.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
       · 
       <details style="display: inline;">
         <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
