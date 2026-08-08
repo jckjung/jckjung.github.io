@@ -48,6 +48,23 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
     </span>
   </li>
 
+<!-- Paper 3 -->
+  <li style="margin-bottom: 0.45rem; line-height: 1.35;">
+    <span style="font-weight: 600; color: #66819c;">When Does Collateralized Borrowing Become Contractionary? -- An Endogenous Debt Threshold</span>
+    <span style="font-style: italic; color: #8c8c8c;"> — Under Review</span>
+    <span style="color: #4589ff; margin-left: 4px;">
+      [<a href="{{ '/assets/files/jung2026wp_sced.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
+      · 
+      <details style="display: inline;">
+        <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
+        <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
+          Housing collateral expands household borrowing, whereas accumulated debt discourages demand when debt service is absorbed by borrowers' consumption rather than their saving. Existing models capture this duality but do not identify a debt level at which the marginal effect of borrowing changes sign. We show that, given an initially positive and eventually negative marginal expenditure effect, strict concavity of net expenditure in the debt stock delivers a unique expansionary–contractionary threshold <i>D̄(θ)</i>, which a risk-premium specification generates endogenously. A larger creditor income share <i>θ</i> lowers the threshold, and a binding collateral constraint maps it into a critical collateral price <i>q̄(θ)</i>. Under a collateral-price closure, <i>D̄(θ)</i> is where a credit boom ceases to accelerate.
+        </p>
+      </details>
+    </span>
+  </li>
+
+
   <!-- Paper 3 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
     <span style="font-weight: 600; color: #66819c;">Selective Industrial Policy and Persistent Inequality: An Agent-Based Model of <i>Chaebol</i> Emergence and Hierarchical Capitalism in Korea</span>
