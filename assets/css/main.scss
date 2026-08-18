@@ -212,7 +212,11 @@ h3 { font-size: 18px !important; }
   max-width: 100%;
 }
 
-.author__urls::before { display: none !important; }
+.author__urls::before,
+.author__urls::after {
+  display: none !important;
+  content: none !important;
+}
 
 .author__urls li {
   display: block;
