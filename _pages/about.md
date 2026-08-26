@@ -17,14 +17,14 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
 
   <!-- Paper 1 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
-    <span style="font-weight: 600; color: #66819c;">Pro-competitive Reform Bundling and the Labour Share: Evidence from Korea's <i>Chaebol</i> Restructuring</span>
-    <span style="font-style: italic; color: #8c8c8c;"> — Under Review</span>
+    <span style="font-weight: 600;">Pro-competitive Reform Bundling and the Labour Share: Evidence from Korea's <i>Chaebol</i> Restructuring</span>
+    <span style="font-style: italic; opacity: 0.85;"> — Under Review</span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="https://drive.google.com/file/d/1YIRyk5A1bg_SFWAjsHvmT9cqxZseyADp/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
       ·
       <details style="display: inline;">
         <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
-        <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
+        <p style="margin-top: 0.4rem; margin-bottom: 0; opacity: 0.85; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
           Structural reform episodes typically bundle multiple institutional changes, yet the distributional consequences remain poorly understood. This paper exploits South Korea's 1998 reform package&mdash;combining competition enforcement, labour market liberalization, and state-directed corporate restructuring&mdash;targeting its top 30 <i>chaebol</i> conglomerates. Using firm-level panel data (1991&ndash;2011) and generalized synthetic control, I find the reform bundle reduced treated firms' labour share by 7&ndash;8 percentage points, offset by rising profit shares. The decline is overwhelmingly within-firm, with near-unitary elasticities of substitution ruling out capital deepening. Competition reform's distributional effects depend critically on the institutional environment in which it is embedded.
         </p>
       </details>
@@ -33,50 +33,48 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
 
   <!-- Paper 2 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
-    <span style="font-weight: 600; color: #66819c;">The Impact of Clean Technology Innovation Support on Firm-level Energy-related R&amp;D Investment: Evidence from Canada</span>,
-    <span style="color: #66819c;">with Claudia De Fuentes, Hao Lu, and Joniada Milla</span>
-    <span style="font-style: italic; color: #8c8c8c;"> — Revise &amp; Resubmit, <strong>Energy Economics</strong></span>
+    <span style="font-weight: 600;">The Impact of Clean Technology Innovation Support on Firm-level Energy-related R&amp;D Investment: Evidence from Canada</span>,
+    <span>with Claudia De Fuentes, Hao Lu, and Joniada Milla</span>
+    <span style="font-style: italic; opacity: 0.85;"> — Revise &amp; Resubmit, <strong>Energy Economics</strong></span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="https://drive.google.com/file/d/1USh9gmcXjOjMnI1JihnQqwLvcLFyokef/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
       ·
       <details style="display: inline;">
         <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
-        <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
+        <p style="margin-top: 0.4rem; margin-bottom: 0; opacity: 0.85; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
           This study contributes to identifying the impact of mission-oriented innovation policies on green energy innovation. We analyze the input additionality, behavioural additionality, and network additionality effects from mission-oriented policies under the clean technology innovation support from the government of Canada. We conduct the analysis using generalized synthetic control methods on a unique customized dataset that includes micro-level data at the enterprise level for firms located in Canada.
         </p>
       </details>
     </span>
   </li>
 
-<!-- 2026 SCED -->
+  <!-- 2026 SCED -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
-    <span style="font-weight: 600; color: #66819c;">When Does Collateralized Borrowing Become Contractionary? -- An Endogenous Debt Threshold</span>
-    <span style="font-style: italic; color: #8c8c8c;"> — Under Review</span>
+    <span style="font-weight: 600;">When Does Collateralized Borrowing Become Contractionary? -- An Endogenous Debt Threshold</span>
+    <span style="font-style: italic; opacity: 0.85;"> — Under Review</span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="{{ '/files/jung2026wp_sced.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
       · 
       <details style="display: inline;">
         <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
-        <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
+        <p style="margin-top: 0.4rem; margin-bottom: 0; opacity: 0.85; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
           Housing collateral enables households to borrow, whereas accumulated debt discourages demand due to subsequent debt service absorbed by borrowers' consumption rather than their saving. Existing models capture this duality but do not identify a critical debt level at which the marginal effect of borrowing changes sign. This paper shows that, given the non-monotonic marginal expenditure effect, strict concavity of net expenditure in the debt stock delivers a unique expansionary–contractionary threshold <i>D̄(θ)</i>, which is endogenously generated by a risk-premium specification. In addition, this paper finds that a larger creditor income share <i>θ</i> or more unequal economy lowers the threshold, and a binding collateral constraint maps it into a critical collateral price <i>q̄(θ)</i>. Under a collateral-price closure, <i>D̄(θ)</i> is where a credit boom ceases to accelerate.
         </p>
       </details>
     </span>
   </li>
 
-
   <!-- Paper 3 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
-    <span style="font-weight: 600; color: #66819c;">Selective Industrial Policy and Persistent Inequality: An Agent-Based Model of <i>Chaebol</i> Emergence and Hierarchical Capitalism in Korea</span>
-    <span style="font-style: italic; color: #8c8c8c;"> — Under Review</span>
+    <span style="font-weight: 600;">Selective Industrial Policy and Persistent Inequality: An Agent-Based Model of <i>Chaebol</i> Emergence and Hierarchical Capitalism in Korea</span>
+    <span style="font-style: italic; opacity: 0.85;"> — Under Review</span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="https://drive.google.com/file/d/11-wVol7I7WdjljughTrqidmxiyaFKtPU/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
       · 
       <details style="display: inline;">
         <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
-        <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
-          How does selective industrial policy generate persistent income inequality? We develop an evolutionary agent-based model motivated by Korea's Heavy and Chemical Industry drive (1973&ndash;1979) in which preferential credit, strategic demand support, and capability-based firm selection endogenously produce dominant business groups (<i>chaebols</i>). Inequality emerges through three reinforcing channels: asymmetric credit creates financial hierarchy, Kaleckian markup concentration redistributes income from wages to profits, and segmented labour markets generate persistent wage dualism. Simulations show that industrial promotion raises output by approximately 40% but increases the income Gini from 0.28 to 
-0.43 and reduces the wage share from 0.75 to 0.65. These effects intensify after policy withdrawal as cumulative advantages become self-reinforcing. Counterfactual experiments demonstrate that SME linkage programs and labour safeguards substantially mitigate inequality while preserving growth gains, highlighting the importance of complementary institutions in developmental-state industrialization.
+        <p style="margin-top: 0.4rem; margin-bottom: 0; opacity: 0.85; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
+          How does selective industrial policy generate persistent income inequality? We develop an evolutionary agent-based model motivated by Korea's Heavy and Chemical Industry drive (1973&ndash;1979) in which preferential credit, strategic demand support, and capability-based firm selection endogenously produce dominant business groups (<i>chaebols</i>). Inequality emerges through three reinforcing channels: asymmetric credit creates financial hierarchy, Kaleckian markup concentration redistributes income from wages to profits, and segmented labour markets generate persistent wage dualism. Simulations show that industrial promotion raises output by approximately 40% but increases the income Gini from 0.28 to 0.43 and reduces the wage share from 0.75 to 0.65. These effects intensify after policy withdrawal as cumulative advantages become self-reinforcing. Counterfactual experiments demonstrate that SME linkage programs and labour safeguards substantially mitigate inequality while preserving growth gains, highlighting the importance of complementary institutions in developmental-state industrialization.
         </p>
       </details>
     </span>
@@ -84,47 +82,44 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
 
   <!-- Paper 4 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
-    <span style="font-weight: 600; color: #66819c;">Long-term Treatment Effects of Government Support to Spur Innovation in the Atlantic Regions in Canada</span>,
-    <span style="color: #66819c;">with Claudia De Fuentes, Joniada Milla, and Hao Lu</span>
-    <span style="font-style: italic; color: #8c8c8c;"> — Working Paper</span>
+    <span style="font-weight: 600;">Long-term Treatment Effects of Government Support to Spur Innovation in the Atlantic Regions in Canada</span>,
+    <span>with Claudia De Fuentes, Joniada Milla, and Hao Lu</span>
+    <span style="font-style: italic; opacity: 0.85;"> — Working Paper</span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="https://drive.google.com/file/d/1llOPOSDGZj9bRLfcae6-q1sLp50pbkeQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
-       · 
+      · 
       <details style="display: inline;">
         <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
-        <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
-          The impact of innovation efforts has been recognized as an important economic and social process due to the outcomes that it generates, both in terms of the production and accumulation of knowledge throughout the innovation process and the innovative products that are generated
-to address specific problems. Governments throughout the world implement policies to support firms innovation decisions to innovate and to spur their innovation intensity, with the main objective to contribute to the social element of knowledge creation and innovation. Some of these forms of government support have a federal reach, while others have a regional focus and recognize the context specificities in the design of support programs. This paper aims to contribute to the analysis of the impact of a government support program that has a regional focus in Canada. We contribute to the understanding of three main elements: i) input additionality specific for the Atlantic Provinces in Canada; ii) output additionality, considering the main outcomes expected in the design of the program; and iii) the long-term effects of government support on specific outcomes differentiating by size and sector. Our results suggest that for input additionality, government support for R&D, contributes to firms increasing their R&D investment, and the effects are higher for small high tech firms. Relevant to output additionality, our results suggest that government support has a positive effect on some of the outcomes highlighted in the policy design, for example productivity and exports; while also
-contributing to longer-term effects that have wider impacts at the regional level, and are relevant in terms of higher salaries and retention of talent. This has important implications in terms of policy making, since government support contributes to alleviate the financial burden to engage
-in R&D and innovation activities, while at the same time contributing to improve firm and social performance.
+        <p style="margin-top: 0.4rem; margin-bottom: 0; opacity: 0.85; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
+          The impact of innovation efforts has been recognized as an important economic and social process due to the outcomes that it generates, both in terms of the production and accumulation of knowledge throughout the innovation process and the innovative products that are generated to address specific problems. Governments throughout the world implement policies to support firms innovation decisions to innovate and to spur their innovation intensity, with the main objective to contribute to the social element of knowledge creation and innovation. Some of these forms of government support have a federal reach, while others have a regional focus and recognize the context specificities in the design of support programs. This paper aims to contribute to the analysis of the impact of a government support program that has a regional focus in Canada. We contribute to the understanding of three main elements: i) input additionality specific for the Atlantic Provinces in Canada; ii) output additionality, considering the main outcomes expected in the design of the program; and iii) the long-term effects of government support on specific outcomes differentiating by size and sector. Our results suggest that for input additionality, government support for R&D, contributes to firms increasing their R&D investment, and the effects are higher for small high tech firms. Relevant to output additionality, our results suggest that government support has a positive effect on some of the outcomes highlighted in the policy design, for example productivity and exports; while also contributing to longer-term effects that have wider impacts at the regional level, and are relevant in terms of higher salaries and retention of talent. This has important implications in terms of policy making, since government support contributes to alleviate the financial burden to engage in R&D and innovation activities, while at the same time contributing to improve firm and social performance.
         </p>
       </details>
     </span>
   </li>
 
-<!-- Paper 6 -->
-<li style="margin-bottom: 0.45rem; line-height: 1.35;">
-  <span style="font-weight: 600; color: #66819c;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's HCI Promotion, 1973–1979</span>
-  <span style="font-style: italic; color: #8c8c8c;"> — Journal of Post Keynesian Economics, 2023</span>
-  <span style="color: #4589ff; margin-left: 4px;">
-    [<a href="files/jung2023jpke_ch1.pdf" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
-     · 
-    <details style="display: inline;">
-      <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
-      <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
-        This study explores the impact of state's industrial policy on sectoral capacity utilization and growth in total output in the context of Korea's Heavy and Chemical Industry (HCI) promotion (1973–1979). Using a Kalecki-Steindl framework within a two-sector open economy, the study first finds that primary industrial policy instruments—preferential interest rates and export promotion regime—have a positive effect on capacity utilization (aggregate demand) and economic growth, but unbalanced sectoral dependence undermines the effect of industrial policy. Second, the increased market power of firms in the targeted sector has a dual impact on sectoral capacity, depending on productivity growth characteristics. Third, the industrial policy regime is highly susceptible to adverse external price shocks.
-      </p>
-    </details>
-     · 
-    [<a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a>]
-  </span>
-</li>
+  <!-- Paper 6 -->
+  <li style="margin-bottom: 0.45rem; line-height: 1.35;">
+    <span style="font-weight: 600;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's HCI Promotion, 1973–1979</span>
+    <span style="font-style: italic; opacity: 0.85;"> — Journal of Post Keynesian Economics, 2023</span>
+    <span style="color: #4589ff; margin-left: 4px;">
+      [<a href="files/jung2023jpke_ch1.pdf" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
+      · 
+      <details style="display: inline;">
+        <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">[abstract▾]</summary>
+        <p style="margin-top: 0.4rem; margin-bottom: 0; opacity: 0.85; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
+          This study explores the impact of state's industrial policy on sectoral capacity utilization and growth in total output in the context of Korea's Heavy and Chemical Industry (HCI) promotion (1973–1979). Using a Kalecki-Steindl framework within a two-sector open economy, the study first finds that primary industrial policy instruments—preferential interest rates and export promotion regime—have a positive effect on capacity utilization (aggregate demand) and economic growth, but unbalanced sectoral dependence undermines the effect of industrial policy. Second, the increased market power of firms in the targeted sector has a dual impact on sectoral capacity, depending on productivity growth characteristics. Third, the industrial policy regime is highly susceptible to adverse external price shocks.
+        </p>
+      </details>
+      · 
+      [<a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a>]
+    </span>
+  </li>
   
   <!-- Paper 5 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
-    <span style="font-weight: 600; color: #66819c;">Science and Technology Innovation Policy in Innovation Systems to Address Clean Transitions</span>,
-    <span style="color: #66819c;">with Claudia De Fuentes and Jo Chataway</span>
-    <span style="font-style: italic; color: #8c8c8c;"> — Book Chapter, Under Review</span>
+    <span style="font-weight: 600;">Science and Technology Innovation Policy in Innovation Systems to Address Clean Transitions</span>,
+    <span>with Claudia De Fuentes and Jo Chataway</span>
+    <span style="font-style: italic; opacity: 0.85;"> — Book Chapter, Under Review</span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="https://drive.google.com/file/d/1JK9wDpt9OPXzdltDjr0fPFuq5JvmhoJp/view" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
     </span>
