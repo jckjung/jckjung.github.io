@@ -15,7 +15,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
 
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
 
-  <!-- Paper 1 -->
+  <!-- Paper 3 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
     <span style="font-weight: 600;">Pro-competitive Reform Bundling and the Labour Share: Evidence from Korea's <i>Chaebol</i> Restructuring</span>
     <span style="font-style: italic; opacity: 0.85;"> — Under Review</span>
@@ -31,7 +31,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
     </span>
   </li>
 
-  <!-- Paper 2 -->
+  <!-- Paper 4 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
     <span style="font-weight: 600;">The Impact of Clean Technology Innovation Support on Firm-level Energy-related R&amp;D Investment: Evidence from Canada</span>,
     <span>with Claudia De Fuentes, Hao Lu, and Joniada Milla</span>
@@ -64,7 +64,7 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
     </span>
   </li>
 
-  <!-- Paper 3 -->
+  <!-- Paper 2 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
     <span style="font-weight: 600;">Selective Industrial Policy and Persistent Inequality: An Agent-Based Model of <i>Chaebol</i> Emergence and Hierarchical Capitalism in Korea</span>
     <span style="font-style: italic; opacity: 0.85;"> — Under Review</span>
@@ -97,11 +97,13 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
     </span>
   </li>
 
-  <!-- Paper 6 -->
+<!-- Paper 1 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
     <span style="font-weight: 600;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's HCI Promotion, 1973–1979</span>
     <span style="font-style: italic; opacity: 0.85;"> — Journal of Post Keynesian Economics, 2023</span>
     <span style="color: #4589ff; margin-left: 4px;">
+      [<a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a>]
+      ·
       [<a href="files/jung2023jpke_ch1.pdf" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
       · 
       <details style="display: inline;">
@@ -110,8 +112,6 @@ A first-generation university graduate, I received my Ph.D. in Economics from <a
           This study explores the impact of state's industrial policy on sectoral capacity utilization and growth in total output in the context of Korea's Heavy and Chemical Industry (HCI) promotion (1973–1979). Using a Kalecki-Steindl framework within a two-sector open economy, the study first finds that primary industrial policy instruments—preferential interest rates and export promotion regime—have a positive effect on capacity utilization (aggregate demand) and economic growth, but unbalanced sectoral dependence undermines the effect of industrial policy. Second, the increased market power of firms in the targeted sector has a dual impact on sectoral capacity, depending on productivity growth characteristics. Third, the industrial policy regime is highly susceptible to adverse external price shocks.
         </p>
       </details>
-      · 
-      [<a href="https://doi.org/10.1080/01603477.2023.2284394" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">journal doi</a>]
     </span>
   </li>
   
