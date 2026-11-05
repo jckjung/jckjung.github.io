@@ -18,7 +18,7 @@ A first-gen university graduate, I completed my Ph.D. in Economics from <a href=
   <!-- Paper 3 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
     <span style="font-weight: 600;">Pro-competitive Reform Bundling and the Labour Share: Evidence from Korea's <i>Chaebol</i> Restructuring</span>
-    <span style="font-style: italic; opacity: 0.85;"> — Under Review</span>
+    <span style="font-style: italic; opacity: 0.85;"> — Working Paper, 2023</span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="https://drive.google.com/file/d/1YIRyk5A1bg_SFWAjsHvmT9cqxZseyADp/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
       ·
@@ -51,7 +51,7 @@ A first-gen university graduate, I completed my Ph.D. in Economics from <a href=
   <!-- 2026 SCED -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
     <span style="font-weight: 600;">When Does Collateralized Borrowing Become Contractionary? -- An Endogenous Debt Threshold</span>
-    <span style="font-style: italic; opacity: 0.85;"> — Under Review</span>
+    <span style="font-style: italic; opacity: 0.85;"> — Working Paper, 2026</span>
     <span style="color: #4589ff; margin-left: 4px;">
       [<a href="{{ '/files/jung2026wp_sced.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" style="color: #4589ff; text-decoration: none;">paper</a>]
       · 
