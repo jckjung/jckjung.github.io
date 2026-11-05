@@ -97,6 +97,30 @@ A first-gen university graduate, I completed my Ph.D. in Economics from <a href=
     </span>
   </li>
 
+
+<!-- Paper: Innovation Policy Targeting -->
+<li style="margin-bottom: 0.45rem; line-height: 1.35;">
+  <span style="font-weight: 600;">
+    Innovation Barriers and Innovation Policy Targeting:
+    Evidence from South Korea's SME Voucher Program
+  </span>
+  <span style="font-style: italic; opacity: 0.85;">
+    — Working Paper, 2026
+  </span>
+  <span style="color: #4589ff; margin-left: 4px;">
+    <details style="display: inline;">
+      <summary style="display: inline; color: #4589ff; cursor: pointer; list-style: none; outline: none;">
+        [abstract▾]
+      </summary>
+      <p style="margin-top: 0.4rem; margin-bottom: 0; color: #8c8c8c; font-size: 0.95rem; line-height: 1.45; padding-left: 0.5rem;">
+        How well does innovation policy targeting align with the barriers firms face in undertaking innovation? This study examines South Korea's 2020 SME Innovation Voucher Program by linking regional priority-industry designations to industry-level innovation barriers constructed from the 2016–2020 Korean Innovation Survey. Analyzing 344 region–industry cells across 16 regions, we find that reported innovation barriers have limited explanatory power for policy targeting, whereas industry size and strategic importance account for 99.39% of the incremental explanatory power in a Shapley decomposition. Associations vary across barriers: knowledge- and capability-related constraints are positively associated with priority designation, while external collaboration barriers are negatively associated. A counterfactual targeting exercise that preserves regional allocation quotas finds that only 39.19% of actual designations overlap with selections prioritizing more severe innovation barriers. Although this divergence does not establish inefficient allocation, it reveals a substantial gap between observed policy priorities and a barrier-based targeting rule. Supplementary triple-difference estimates provide limited evidence of positive innovation effects but remain sensitive to identification and inference assumptions. The findings demonstrate how firm-reported innovation barriers can inform ex ante assessments of innovation policy targeting without presuming that barrier severity determines the social returns to public support.
+      </p>
+    </details>
+  </span>
+</li>
+
+
+
 <!-- Paper 1 -->
   <li style="margin-bottom: 0.45rem; line-height: 1.35;">
     <span style="font-weight: 600;">Sectoral Dynamics of Industrial Policy in a Two-sector Economy: the Case of Korea's HCI Promotion, 1973–1979</span>
@@ -139,10 +163,6 @@ A first-gen university graduate, I completed my Ph.D. in Economics from <a href=
 
   <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
     <strong>Who Bears the Burden of Financial Crisis? Labour Market Responses in Six East Asian Economies: A Generalized Synthetic Control Approach</strong>
-  </li>
-
-  <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
-    <strong>The Impact of Mainstreaming on Learning and Well-Being of Canadian Children Living with a Disability</strong> — with Marie-Claire Robitaille and Joniada Milla
   </li>
 
   <li style="margin-bottom: 0.45rem; line-height: 1.35; color: #66819c;">
